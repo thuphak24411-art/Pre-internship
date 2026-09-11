@@ -1,0 +1,910 @@
+﻿[
+    {
+        "pull_request_id": 4420350354,
+        "number": 69838,
+        "state": "open",
+        "creator_id": 26656284,
+        "created_at": "2026-09-02T08:40:22Z",
+        "updated_at": "2026-09-02T09:30:56Z",
+        "closed_at": null,
+        "merged_at": null,
+        "requested_reviewers": [],
+        "labels": [],
+        "draft": true,
+        "head": {
+            "ref": "feat/split-python-modules-lessons",
+            "sha": "976f887ba11edc3bc94451d0a544dc4e2ff0aefe"
+        },
+        "base": {
+            "ref": "main",
+            "sha": "2c2333772440e1b1b653e6fd4c40d1d15a52f6f4"
+        },
+        "additions": 204,
+        "deletions": 111
+    },
+    {
+        "pull_request_id": 4414831124,
+        "number": 69836,
+        "state": "closed",
+        "creator_id": 1884376,
+        "created_at": "2026-09-01T17:54:24Z",
+        "updated_at": "2026-09-02T02:57:34Z",
+        "closed_at": "2026-09-02T02:57:26Z",
+        "merged_at": "2026-09-02T02:57:26Z",
+        "requested_reviewers": [],
+        "labels": [
+            {
+                "label_id": 1088631905,
+                "label_name": "scope: tools/scripts",
+                "description": "Scripts for supporting dev work, generating config and build artifacts, etc."
+            }
+        ],
+        "draft": false,
+        "head": {
+            "ref": "fix/gha-ssh-preflight",
+            "sha": "3117fadc568f7b19e48c59db0e7f21674fd55183"
+        },
+        "base": {
+            "ref": "main",
+            "sha": "5338320e20cb6a12d7defc044f5d8750d23623fc"
+        },
+        "additions": 22,
+        "deletions": 8
+    },
+    {
+        "pull_request_id": 4414588963,
+        "number": 69835,
+        "state": "closed",
+        "creator_id": 322678619,
+        "created_at": "2026-09-01T17:22:10Z",
+        "updated_at": "2026-09-02T02:45:45Z",
+        "closed_at": "2026-09-01T19:00:23Z",
+        "merged_at": "2026-09-01T19:00:23Z",
+        "requested_reviewers": [],
+        "labels": [
+            {
+                "label_id": 199856930,
+                "label_name": "status: waiting review",
+                "description": "To be applied to PR's that are ready for QA, especially when additional review is pending."
+            },
+            {
+                "label_id": 9621717691,
+                "label_name": "Naomi's Sprints",
+                "description": "This label is for issues that Naomi is managing through her sprint initiatives on Discord."
+            }
+        ],
+        "draft": false,
+        "head": {
+            "ref": "refactor/add-section-headers-role-of-html-on-web-lecture",
+            "sha": "a3ad11a64e842a512e629c643ac9b81bf1fbfc15"
+        },
+        "base": {
+            "ref": "main",
+            "sha": "306730924492492c81a87e3710ee03244b393344"
+        },
+        "additions": 10,
+        "deletions": 0
+    },
+    {
+        "pull_request_id": 4412850800,
+        "number": 69834,
+        "state": "open",
+        "creator_id": 26656284,
+        "created_at": "2026-09-01T13:54:34Z",
+        "updated_at": "2026-09-02T06:34:15Z",
+        "closed_at": null,
+        "merged_at": null,
+        "requested_reviewers": [],
+        "labels": [
+            {
+                "label_id": 199856930,
+                "label_name": "status: waiting review",
+                "description": "To be applied to PR's that are ready for QA, especially when additional review is pending."
+            },
+            {
+                "label_id": 802122369,
+                "label_name": "platform: learn",
+                "description": "UI side of the client application that needs familiarity with React, Gatsby etc."
+            }
+        ],
+        "draft": false,
+        "head": {
+            "ref": "fix/turbo-test-locale-env",
+            "sha": "f1fea6c4862366e901216288ce250c342ad63e5d"
+        },
+        "base": {
+            "ref": "main",
+            "sha": "61b5776827ae03f7cd84ee542fa214b213643da9"
+        },
+        "additions": 3,
+        "deletions": 0
+    },
+    {
+        "pull_request_id": 4412836828,
+        "number": 69833,
+        "state": "open",
+        "creator_id": 263526659,
+        "created_at": "2026-09-01T13:53:11Z",
+        "updated_at": "2026-09-02T10:23:39Z",
+        "closed_at": null,
+        "merged_at": null,
+        "requested_reviewers": [],
+        "labels": [
+            {
+                "label_id": 199856930,
+                "label_name": "status: waiting review",
+                "description": "To be applied to PR's that are ready for QA, especially when additional review is pending."
+            },
+            {
+                "id": 802122369,
+                "name": "platform: learn",
+                "description": "UI side of the client application that needs familiarity with React, Gatsby etc."
+            }
+        ],
+        "draft": false,
+        "head": {
+            "ref": "fix/client-intro-fallback-visibility",
+            "sha": "e9908ccb44bbe0e4bda7b90e26f027e7ce7bfa8c"
+        },
+        "base": {
+            "ref": "main",
+            "sha": "61b5776827ae03f7cd84ee542fa214b213643da9"
+        },
+        "additions": 197,
+        "deletions": 2
+    },
+    {
+        "pull_request_id": 4411873883,
+        "number": 69832,
+        "state": "closed",
+        "creator_id": 322678619,
+        "created_at": "2026-09-01T12:00:56Z",
+        "updated_at": "2026-09-01T12:48:59Z",
+        "closed_at": "2026-09-01T12:36:06Z",
+        "merged_at": "2026-09-01T12:36:06Z",
+        "requested_reviewers": [],
+        "labels": [
+            {
+                "label_id": 802122369,
+                "label_name": "platform: learn",
+                "description": "UI side of the client application that needs familiarity with React, Gatsby etc."
+            }
+        ],
+        "draft": false,
+        "head": {
+            "ref": "fix/dcc-archive-test-month-boundary",
+            "sha": "b7110e208d9f4d21914a332afd046afdd23ace9e"
+        },
+        "base": {
+            "ref": "main",
+            "sha": "07595da61b4359950078cb1a4b21809facb3bb32"
+        },
+        "additions": 19,
+        "deletions": 8
+    },
+    {
+        "pull_request_id": 4411864950,
+        "number": 69831,
+        "state": "closed",
+        "creator_id": 26656284,
+        "created_at": "2026-09-01T11:59:45Z",
+        "updated_at": "2026-09-01T13:34:07Z",
+        "closed_at": "2026-09-01T13:26:38Z",
+        "merged_at": "2026-09-01T13:26:37Z",
+        "requested_reviewers": [],
+        "labels": [
+            {
+                "label_id": 802122369,
+                "label_name": "platform: learn",
+                "description": "UI side of the client application that needs familiarity with React, Gatsby etc."
+            }
+        ],
+        "draft": false,
+        "head": {
+            "ref": "fix/client-english-intro-fallback",
+            "sha": "ff95e9e7d95f8dc8d8706b9578d8dfd0ee83fbda"
+        },
+        "base": {
+            "ref": "main",
+            "sha": "ef3056c2a03e237520380224be72366d41079b54"
+        },
+        "additions": 181,
+        "deletions": 4
+    },
+    {
+        "pull_request_id": 4410628324,
+        "number": 69830,
+        "state": "closed",
+        "creator_id": 1884376,
+        "created_at": "2026-09-01T09:19:27Z",
+        "updated_at": "2026-09-01T09:19:38Z",
+        "closed_at": "2026-09-01T09:19:34Z",
+        "merged_at": null,
+        "requested_reviewers": [],
+        "labels": [
+            {
+                "label_id": 9222710785,
+                "name": "deprioritized",
+                "description": "PR reviews are deprioritized; lacks productive input and ignores codebase best practices."
+            }
+        ],
+        "draft": false,
+        "head": {
+            "ref": "main",
+            "sha": "63b822ee26e93b8b2a05a26e7a48a6c90ba3bc44"
+        },
+        "base": {
+            "ref": "main",
+            "sha": "07595da61b4359950078cb1a4b21809facb3bb32"
+        },
+        "additions": 29,
+        "deletions": 0
+    },
+    {
+        "pull_request_id": 4410227697,
+        "number": 69829,
+        "state": "closed",
+        "creator_id": 188833117,
+        "created_at": "2026-09-01T08:27:48Z",
+        "updated_at": "2026-09-01T08:37:09Z",
+        "closed_at": "2026-09-01T08:37:01Z",
+        "merged_at": "2026-09-01T08:37:01Z",
+        "requested_reviewers": [],
+        "labels": [
+            {
+                "label_id": 1088631905,
+                "label_name": "scope: tools/scripts",
+                "description": "Scripts for supporting dev work, generating config and build artifacts, etc."
+            }
+        ],
+        "draft": false,
+        "head": {
+            "ref": "feat/deploy-client-arabic",
+            "sha": "e7900dd981d3eadb4a2033b77415dfd2f96a1339"
+        },
+        "base": {
+            "ref": "main",
+            "sha": "f2f0265ccdf6a29cb796032ac6f8173ac799f0c0"
+        },
+        "additions": 3,
+        "deletions": 1
+    },
+    {
+        "pull_request_id": 4408779953,
+        "number": 69828,
+        "state": "open",
+        "creator_id": 26656284,
+        "created_at": "2026-09-01T04:37:43Z",
+        "updated_at": "2026-09-01T16:39:28Z",
+        "closed_at": null,
+        "merged_at": null,
+        "requested_reviewers": [],
+        "labels": [
+            {
+                "label_id": 786320697,
+                "label_name": "status: waiting update",
+                "description": "Is awaiting update, after feedback or request for changes"
+            },
+            {
+                "label_id": 9621717691,
+                "label_name": "Naomi's Sprints",
+                "description": "This label is for issues that Naomi is managing through her sprint initiatives on Discord."
+            }
+        ],
+        "draft": false,
+        "head": {
+            "ref": "docs/date-object-section-headers",
+            "sha": "48df90513d9d2797521de3a43e71eb3bbc9f7345"
+        },
+        "base": {
+            "ref": "main",
+            "sha": "a0ae8e2890144ce89820bbb99981edc3b3d934c4"
+        },
+        "additions": 12,
+        "deletions": 0
+    },
+    {
+        "pull_request_id": 4405631022,
+        "number": 69827,
+        "state": "open",
+        "creator_id": 26656284,
+        "created_at": "2026-08-31T19:36:40Z",
+        "updated_at": "2026-09-01T16:47:02Z",
+        "closed_at": null,
+        "merged_at": null,
+        "requested_reviewers": [],
+        "labels": [
+            {
+                "label_id": 786320697,
+                "label_name": "status: waiting update",
+                "description": "Is awaiting update, after feedback or request for changes"
+            },
+            {
+                "label_id": 9621717691,
+                "label_name": "Naomi's Sprints",
+                "description": "This label is for issues that Naomi is managing through her sprint initiatives on Discord."
+            }
+        ],
+        "draft": false,
+        "head": {
+            "ref": "fix/update-section-headers-for-what-Is-the-CSS-transform-property",
+            "sha": "9ada6ca82f81ea964b651c6d8a7bb0138bef3a33"
+        },
+        "base": {
+            "ref": "main",
+            "sha": "aadc28df492384077b22eb10428bd477f450bf11"
+        },
+        "additions": 10,
+        "deletions": 0
+    },
+    {
+        "pull_request_id": 4405424823,
+        "number": 69826,
+        "state": "closed",
+        "creator_id": 1884376,
+        "created_at": "2026-08-31T19:08:04Z",
+        "updated_at": "2026-08-31T21:50:22Z",
+        "closed_at": "2026-08-31T21:50:13Z",
+        "merged_at": null,
+        "requested_reviewers": [],
+        "labels": [
+            {
+                "label_id": 199856930,
+                "label_name": "status: waiting review",
+                "description": "To be applied to PR's that are ready for QA, especially when additional review is pending."
+            }
+        ],
+        "draft": false,
+        "head": {
+            "ref": "fix-f2-kbd",
+            "sha": "a858f8d87308260e696d3ab0387c8d2fb731c2dd"
+        },
+        "base": {
+            "ref": "main",
+            "sha": "aadc28df492384077b22eb10428bd477f450bf11"
+        },
+        "additions": 1,
+        "deletions": 1
+    },
+    {
+        "pull_request_id": 4404946472,
+        "number": 69825,
+        "state": "closed",
+        "creator_id": 263526659,
+        "created_at": "2026-08-31T18:01:13Z",
+        "updated_at": "2026-08-31T22:22:05Z",
+        "closed_at": "2026-08-31T22:21:57Z",
+        "merged_at": "2026-08-31T22:21:57Z",
+        "requested_reviewers": [],
+        "labels": [
+            {
+                "label_id": 199856930,
+                "label_name": "status: waiting review",
+                "description": "To be applied to PR's that are ready for QA, especially when additional review is pending."
+            }
+        ],
+        "draft": false,
+        "head": {
+            "ref": "fix/mark-f2-key",
+            "sha": "42840786670a062fed9d388c6f1fd93fb5e66a38"
+        },
+        "base": {
+            "ref": "main",
+            "sha": "aadc28df492384077b22eb10428bd477f450bf11"
+        },
+        "additions": 1,
+        "deletions": 1
+    },
+    {
+        "pull_request_id": 4404704496,
+        "number": 69824,
+        "state": "closed",
+        "creator_id": 1884376,
+        "created_at": "2026-08-31T17:27:41Z",
+        "updated_at": "2026-09-02T09:47:36Z",
+        "closed_at": "2026-09-02T09:47:26Z",
+        "merged_at": "2026-09-02T09:47:26Z",
+        "requested_reviewers": [],
+        "labels": [
+            {
+                "label_id": 199856930,
+                "label_name": "status: waiting review",
+                "description": "To be applied to PR's that are ready for QA, especially when additional review is pending."
+            }
+        ],
+        "draft": false,
+        "head": {
+            "ref": "fix/project-euler-13-test-fixture",
+            "sha": "6d8a3a39773af1135c65264dad2e150aab33a8b7"
+        },
+        "base": {
+            "ref": "main",
+            "sha": "aadc28df492384077b22eb10428bd477f450bf11"
+        },
+        "additions": 13,
+        "deletions": 6
+    },
+    {
+        "pull_request_id": 4403958766,
+        "number": 69823,
+        "state": "closed",
+        "creator_id": 188833117,
+        "created_at": "2026-08-31T15:50:34Z",
+        "updated_at": "2026-09-01T19:00:53Z",
+        "closed_at": "2026-09-01T19:00:45Z",
+        "merged_at": "2026-09-01T19:00:45Z",
+        "requested_reviewers": [],
+        "labels": [
+            {
+                "label_id": 199856930,
+                "label_name": "status: waiting review",
+                "description": "To be applied to PR's that are ready for QA, especially when additional review is pending."
+            },
+            {
+                "label_id": 9621717691,
+                "label_name": "Naomi's Sprints",
+                "description": "This label is for issues that Naomi is managing through her sprint initiatives on Discord."
+            }
+        ],
+        "draft": false,
+        "head": {
+            "ref": "fix/Add-section-headers-to-flexbox-lecture",
+            "sha": "3f08242bb4866d2282fbf950536e45d0ead8017b"
+        },
+        "base": {
+            "ref": "main",
+            "sha": "aadc28df492384077b22eb10428bd477f450bf11"
+        },
+        "additions": 10,
+        "deletions": 0
+    },
+    {
+        "pull_request_id": 4403956972,
+        "number": 69822,
+        "state": "open",
+        "creator_id": 1884376,
+        "created_at": "2026-08-31T15:50:19Z",
+        "updated_at": "2026-09-01T17:54:38Z",
+        "closed_at": null,
+        "merged_at": null,
+        "requested_reviewers": [],
+        "labels": [
+            {
+                "label_id": 199856930,
+                "label_name": "status: waiting review",
+                "description": "To be applied to PR's that are ready for QA, especially when additional review is pending."
+            },
+            {
+                "label_id": 9621717691,
+                "label_name": "Naomi's Sprints",
+                "description": "This label is for issues that Naomi is managing through her sprint initiatives on Discord."
+            }
+        ],
+        "draft": false,
+        "head": {
+            "ref": "refactor/add-section-headers-aria-expanded-attribute-lecture",
+            "sha": "033542638712a4ae1e05ccfca77def116d326145"
+        },
+        "base": {
+            "ref": "main",
+            "sha": "aadc28df492384077b22eb10428bd477f450bf11"
+        },
+        "additions": 15,
+        "deletions": 1
+    },
+    {
+        "pull_request_id": 4403521389,
+        "number": 69821,
+        "state": "closed",
+        "creator_id": 322678619,
+        "created_at": "2026-08-31T14:56:57Z",
+        "updated_at": "2026-08-31T16:13:43Z",
+        "closed_at": "2026-08-31T16:13:34Z",
+        "merged_at": null,
+        "requested_reviewers": [],
+        "labels": [
+            {
+                "label_id": 1088631905,
+                "label_name": "scope: tools/scripts",
+                "description": "Scripts for supporting dev work, generating config and build artifacts, etc."
+            }
+        ],
+        "draft": false,
+        "head": {
+            "ref": "fix/unclear-grid-terminology-69816",
+            "sha": "7cd1cfd4a5e04f1b37a75cf5bf32471d82406be7"
+        },
+        "base": {
+            "ref": "main",
+            "sha": "aadc28df492384077b22eb10428bd477f450bf11"
+        },
+        "additions": 2,
+        "deletions": 1
+    },
+    {
+        "pull_request_id": 4402850547,
+        "number": 69820,
+        "state": "closed",
+        "creator_id": 1884376,
+        "created_at": "2026-08-31T13:36:59Z",
+        "updated_at": "2026-08-31T22:02:38Z",
+        "closed_at": "2026-08-31T22:02:28Z",
+        "merged_at": "2026-08-31T22:02:28Z",
+        "requested_reviewers": [],
+        "labels": [],
+        "draft": false,
+        "head": {
+            "ref": "fix/grid-lecture-multicolumn-term",
+            "sha": "14b876010f2d5938949519d7fb290f15d3402001"
+        },
+        "base": {
+            "ref": "main",
+            "sha": "aadc28df492384077b22eb10428bd477f450bf11"
+        },
+        "additions": 1,
+        "deletions": 1
+    },
+    {
+        "pull_request_id": 4401142192,
+        "number": 69819,
+        "state": "open",
+        "creator_id": 188833117,
+        "created_at": "2026-08-31T09:47:15Z",
+        "updated_at": "2026-08-31T09:47:28Z",
+        "closed_at": null,
+        "merged_at": null,
+        "requested_reviewers": [],
+        "labels": [
+            {
+                "label_id": 1088631905,
+                "label_name": "scope: tools/scripts",
+                "description": "Scripts for supporting dev work, generating config and build artifacts, etc."
+            }
+        ],
+        "draft": true,
+        "head": {
+            "ref": "fix/create-new-project-types",
+            "sha": "50b5c6a2b610127eeb8e92de2e9a55a95e8e33b8"
+        },
+        "base": {
+            "ref": "main",
+            "sha": "83857e62e6c78963c7698dbf06823c6dd92184bc"
+        },
+        "additions": 1017,
+        "deletions": 112
+    },
+    {
+        "pull_request_id": 4401008483,
+        "number": 69818,
+        "state": "closed",
+        "creator_id": 26656284,
+        "created_at": "2026-08-31T09:29:27Z",
+        "updated_at": "2026-08-31T10:05:50Z",
+        "closed_at": "2026-08-31T10:05:42Z",
+        "merged_at": "2026-08-31T10:05:42Z",
+        "requested_reviewers": [],
+        "labels": [
+            {
+                "label_id": 199856930,
+                "label_name": "status: waiting review",
+                "description": "To be applied to PR's that are ready for QA, especially when additional review is pending."
+            },
+            {
+                "label_id": 6358603340,
+                "label_name": "js v9 cert",
+                "description": "This is for the JS V9 certification."
+            }
+        ],
+        "draft": false,
+        "head": {
+            "ref": "fix/javascript-countup-workshop-completion",
+            "sha": "89ed43cc2095621492bbc1d4e6723540d8589678"
+        },
+        "base": {
+            "ref": "main",
+            "sha": "83857e62e6c78963c7698dbf06823c6dd92184bc"
+        },
+        "additions": 2,
+        "deletions": 0
+    },
+    {
+        "pull_request_id": 4400829373,
+        "number": 69817,
+        "state": "open",
+        "creator_id": 26656284,
+        "created_at": "2026-08-31T09:04:36Z",
+        "updated_at": "2026-08-31T09:05:50Z",
+        "closed_at": null,
+        "merged_at": null,
+        "requested_reviewers": [],
+        "labels": [
+            {
+                "label_id": 802122369,
+                "label_name": "platform: learn",
+                "description": "UI side of the client application that needs familiarity with React, Gatsby etc."
+            }
+        ],
+        "draft": false,
+        "head": {
+            "ref": "feat/solution-zip-download",
+            "sha": "065083fcb84007e2994704e82bc29796849b7d85"
+        },
+        "base": {
+            "ref": "main",
+            "sha": "83857e62e6c78963c7698dbf06823c6dd92184bc"
+        },
+        "additions": 60,
+        "deletions": 43
+    },
+    {
+        "pull_request_id": 4400317291,
+        "number": 69815,
+        "state": "closed",
+        "creator_id": 188833117,
+        "created_at": "2026-08-31T07:50:46Z",
+        "updated_at": "2026-08-31T15:54:51Z",
+        "closed_at": "2026-08-31T11:07:23Z",
+        "merged_at": "2026-08-31T11:07:23Z",
+        "requested_reviewers": [],
+        "labels": [
+            {
+                "label_id": 199856930,
+                "label_name": "status: waiting review",
+                "description": "To be applied to PR's that are ready for QA, especially when additional review is pending."
+            }
+        ],
+        "draft": false,
+        "head": {
+            "ref": "fix/debug-donation-form-name-tests",
+            "sha": "80761790832553dd6f4db9fd3596fc43549eeabf"
+        },
+        "base": {
+            "ref": "main",
+            "sha": "d0ce360a0f8786c3f3731bafd664bba9cdf2d8ff"
+        },
+        "additions": 30,
+        "deletions": 0
+    },
+    {
+        "pull_request_id": 4398790683,
+        "number": 69814,
+        "state": "open",
+        "creator_id": 1884376,
+        "created_at": "2026-08-31T02:54:23Z",
+        "updated_at": "2026-08-31T02:54:34Z",
+        "closed_at": null,
+        "merged_at": null,
+        "requested_reviewers": [],
+        "labels": [
+            {
+                "label_id": 9222710785,
+                "label_name": "deprioritized",
+                "description": "PR reviews are deprioritized; lacks productive input and ignores codebase best practices."
+            }
+        ],
+        "draft": false,
+        "head": {
+            "ref": "main",
+            "sha": "0a3d9c11fde4e269e2a8ad114389cb04a134feba"
+        },
+        "base": {
+            "ref": "main",
+            "sha": "319d848e25e45a07a5abff34ebb6552d56921ba1"
+        },
+        "additions": 9,
+        "deletions": 9
+    },
+    {
+        "pull_request_id": 4397879295,
+        "number": 69811,
+        "state": "closed",
+        "creator_id": 1884376,
+        "created_at": "2026-08-30T22:45:37Z",
+        "updated_at": "2026-08-31T02:19:17Z",
+        "closed_at": "2026-08-31T02:19:07Z",
+        "merged_at": null,
+        "requested_reviewers": [],
+        "labels": [
+            {
+                "label_id": 9222710785,
+                "label_name": "deprioritized",
+                "description": "PR reviews are deprioritized; lacks productive input and ignores codebase best practices."
+            }
+        ],
+        "draft": false,
+        "head": {
+            "ref": "main",
+            "sha": "5661a9998eac5791d8bf6890fb2fd936105aa773"
+        },
+        "base": {
+            "ref": "main",
+            "sha": "1b7c804844874d8dbd3d70fc4445997ea84a2562"
+        },
+        "additions": 2,
+        "deletions": 0
+    },
+    {
+        "pull_request_id": 4397767122,
+        "number": 69810,
+        "state": "closed",
+        "creator_id": 1884376,
+        "created_at": "2026-08-30T22:09:30Z",
+        "updated_at": "2026-08-31T04:52:04Z",
+        "closed_at": "2026-08-31T02:19:53Z",
+        "merged_at": "2026-08-31T02:19:53Z",
+        "requested_reviewers": [],
+        "labels": [
+            {
+                "label_id": 199856930,
+                "label_name": "status: waiting review",
+                "description": "To be applied to PR's that are ready for QA, especially when additional review is pending."
+            }
+        ],
+        "draft": false,
+        "head": {
+            "ref": "review_react_basics",
+            "sha": "d5ed261e33e3f8ae90bc5dff03b9701e2e326146"
+        },
+        "base": {
+            "ref": "main",
+            "sha": "1b7c804844874d8dbd3d70fc4445997ea84a2562"
+        },
+        "additions": 1,
+        "deletions": 1
+    },
+    {
+        "pull_request_id": 4397481911,
+        "number": 69809,
+        "state": "closed",
+        "creator_id": 26656284,
+        "created_at": "2026-08-30T20:41:55Z",
+        "updated_at": "2026-08-31T07:48:13Z",
+        "closed_at": "2026-08-31T07:48:05Z",
+        "merged_at": null,
+        "requested_reviewers": [],
+        "labels": [
+            {
+                "label_id": 9222710785,
+                "label_name": "deprioritized",
+                "description": "PR reviews are deprioritized; lacks productive input and ignores codebase best practices."
+            }
+        ],
+        "draft": false,
+        "head": {
+            "ref": "fix/issue-69805-envelope-budget-selector",
+            "sha": "6b0d6fc6bcc0f5f59381950b53ad73e41f64b98e"
+        },
+        "base": {
+            "ref": "main",
+            "sha": "1b7c804844874d8dbd3d70fc4445997ea84a2562"
+        },
+        "additions": 7,
+        "deletions": 7
+    },
+    {
+        "pull_request_id": 4396823448,
+        "number": 69807,
+        "state": "open",
+        "creator_id": 322678619,
+        "created_at": "2026-08-30T17:27:12Z",
+        "updated_at": "2026-08-30T17:31:17Z",
+        "closed_at": null,
+        "merged_at": null,
+        "requested_reviewers": [],
+        "labels": [
+            {
+                "label_id": 802122369,
+                "label_name": "platform: learn",
+                "description": "UI side of the client application that needs familiarity with React, Gatsby etc."
+            },
+            {
+                "label_id": 9222710785,
+                "label_name": "deprioritized",
+                "description": "PR reviews are deprioritized; lacks productive input and ignores codebase best practices."
+            }
+        ],
+        "draft": false,
+        "head": {
+            "ref": "fix/escape-js-console-output",
+            "sha": "09c106d7d5401842ed08be9fda36ae763484123c"
+        },
+        "base": {
+            "ref": "main",
+            "sha": "e078c25cc7949b8025871dcabad4924f8e869a9c"
+        },
+        "additions": 40,
+        "deletions": 1
+    },
+    {
+        "pull_request_id": 4395693771,
+        "number": 69806,
+        "state": "open",
+        "creator_id": 26656284,
+        "created_at": "2026-08-30T12:01:03Z",
+        "updated_at": "2026-09-01T21:06:46Z",
+        "closed_at": null,
+        "merged_at": null,
+        "requested_reviewers": [],
+        "labels": [
+            {
+                "label_id": 786320697,
+                "label_name": "status: waiting update",
+                "description": "Is awaiting update, after feedback or request for changes"
+            }
+        ],
+        "draft": false,
+        "head": {
+            "ref": "fix-envelope-budget-selector",
+            "sha": "ef71cc8e3b269814011d70a1d3525875dac172dd"
+        },
+        "base": {
+            "ref": "main",
+            "sha": "c8e64e20096eb8d8d5c7f7064f8750ececeb9d34"
+        },
+        "additions": 120,
+        "deletions": 212
+    },
+    {
+        "pull_request_id": 4395568047,
+        "number": 69804,
+        "state": "closed",
+        "creator_id": 188833117,
+        "created_at": "2026-08-30T11:22:18Z",
+        "updated_at": "2026-09-02T07:03:23Z",
+        "closed_at": "2026-09-02T07:03:13Z",
+        "merged_at": "2026-09-02T07:03:13Z",
+        "requested_reviewers": [],
+        "labels": [
+            {
+                "label_id": 786320697,
+                "label_name": "status: waiting update",
+                "description": "Is awaiting update, after feedback or request for changes"
+            },
+            {
+                "label_id": 9621717691,
+                "label_name": "Naomi's Sprints",
+                "description": "This label is for issues that Naomi is managing through her sprint initiatives on Discord."
+            }
+        ],
+        "draft": false,
+        "head": {
+            "ref": "refactor/add-section-headers-css-reset-lecture",
+            "sha": "2067d1c27e41232aa000793e47456495e941b875"
+        },
+        "base": {
+            "ref": "main",
+            "sha": "e078c25cc7949b8025871dcabad4924f8e869a9c"
+        },
+        "additions": 12,
+        "deletions": 2
+    },
+    {
+        "pull_request_id": 4392704556,
+        "number": 69803,
+        "state": "closed",
+        "creator_id": 26656284,
+        "created_at": "2026-08-29T17:55:41Z",
+        "updated_at": "2026-08-29T18:11:03Z",
+        "closed_at": "2026-08-29T17:59:29Z",
+        "merged_at": null,
+        "requested_reviewers": [],
+        "labels": [
+            {
+                "label_id": 9222710785,
+                "label_name": "deprioritized",
+                "description": "PR reviews are deprioritized; lacks productive input and ignores codebase best practices."
+            }
+        ],
+        "draft": false,
+        "head": {
+            "ref": "fix/daily-challenge-18-second-best",
+            "sha": "00ae7eb662282888d8dee8bba458cb7dfe015a95"
+        },
+        "base": {
+            "ref": "main",
+            "sha": "69f6817cf3e4d7fcc69b95053214868a31519aa5"
+        },
+        "additions": 4,
+        "deletions": 4
+    }
+]
