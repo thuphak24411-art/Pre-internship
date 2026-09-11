@@ -1,0 +1,210 @@
+[
+    {
+        "review_id": 5120326667,
+        "comment_id": 3939872812,
+        "commenter_id": 188833117,
+        "body": "```suggestion\r\nWhen a Python file is executed directly, Python sets the value of this variable to the string `__main__`.\r\n```",
+        "created_at": "2026-09-05T07:29:53Z",
+        "updated_at": "2026-09-05T07:43:10Z"
+    },
+    {
+        "review_id": 5120326667,
+        "comment_id": 3939887443,
+        "commenter_id": 188833117,
+        "body": "No questions?",
+        "created_at": "2026-09-05T07:37:16Z",
+        "updated_at": "2026-09-05T07:43:10Z"
+    },
+    {
+        "review_id": 5120326667,
+        "comment_id": 3939891327,
+        "commenter_id": 188833117,
+        "body": "Odd start",
+        "created_at": "2026-09-05T07:39:19Z",
+        "updated_at": "2026-09-05T07:43:10Z"
+    },
+    {
+        "review_id": 5120326667,
+        "comment_id": 3939899437,
+        "commenter_id": 188833117,
+        "body": "needs another question",
+        "created_at": "2026-09-05T07:43:00Z",
+        "updated_at": "2026-09-05T07:43:10Z"
+    },
+    {
+        "review_id": 5120474817,
+        "comment_id": 3939999633,
+        "commenter_id": 188833117,
+        "body": "tracked in description",
+        "created_at": "2026-09-05T08:24:24Z",
+        "updated_at": "2026-09-05T08:24:24Z"
+    },
+    {
+        "review_id": 5120475349,
+        "comment_id": 3940000187,
+        "commenter_id": 188833117,
+        "body": "tracked in PR description",
+        "created_at": "2026-09-05T08:24:32Z",
+        "updated_at": "2026-09-05T08:24:32Z"
+    },
+    {
+        "review_id": 5120478914,
+        "comment_id": 3940003352,
+        "commenter_id": 188833117,
+        "body": "I have not changed this yet",
+        "created_at": "2026-09-05T08:25:06Z",
+        "updated_at": "2026-09-05T08:25:06Z"
+    },
+    {
+        "review_id": 5110653454,
+        "comment_id": 3932107615,
+        "commenter_id": 322678619,
+        "body": "please revert this change, outside of PR scope and we do not add external documentation link that can easily change",
+        "created_at": "2026-09-04T08:06:17Z",
+        "updated_at": "2026-09-04T08:06:41Z"
+    },
+    {
+        "review_id": 5080675903,
+        "comment_id": 3906316349,
+        "commenter_id": 188833117,
+        "body": "```suggestion\n## Using `translate`\n```",
+        "created_at": "2026-09-01T16:42:07Z",
+        "updated_at": "2026-09-01T16:46:47Z"
+    },
+    {
+        "review_id": 5080675903,
+        "comment_id": 3906318551,
+        "commenter_id": 188833117,
+        "body": "```suggestion\n## Using `rotate`\n```",
+        "created_at": "2026-09-01T16:42:23Z",
+        "updated_at": "2026-09-01T16:46:47Z"
+    },
+    {
+        "review_id": 5080675903,
+        "comment_id": 3906319814,
+        "commenter_id": 188833117,
+        "body": "```suggestion\n## Using `scale`\n```",
+        "created_at": "2026-09-01T16:42:32Z",
+        "updated_at": "2026-09-01T16:46:47Z"
+    },
+    {
+        "review_id": 5111526058,
+        "comment_id": 3932853043,
+        "commenter_id": 1884376,
+        "body": "```suggestion\n## Combining Transformations\n```",
+        "created_at": "2026-09-04T09:52:33Z",
+        "updated_at": "2026-09-04T09:52:34Z"
+    },
+    {
+        "review_id": 5111526058,
+        "comment_id": 3932853071,
+        "commenter_id": 1884376,
+        "body": "```suggestion\n## Accessibility Considerations\n```",
+        "created_at": "2026-09-04T09:52:33Z",
+        "updated_at": "2026-09-04T09:52:34Z"
+    },
+    {
+        "review_id": 5068475239,
+        "comment_id": 3896091655,
+        "commenter_id": 322678619,
+        "body": "Minor grammar issue: the comma after \"properties\" breaks the sentence flow. It reads more clearly without it.\n\nThis issue also appears on line 202 of the same file.",
+        "created_at": "2026-08-31T15:52:41Z",
+        "updated_at": "2026-08-31T15:52:41Z"
+    },
+    {
+        "review_id": 5111562277,
+        "comment_id": 3932885420,
+        "commenter_id": 322678619,
+        "body": "```suggestion\n### Using `aria-controls`\n```",
+        "created_at": "2026-09-04T09:56:23Z",
+        "updated_at": "2026-09-04T09:56:23Z"
+    },
+    {
+        "review_id": 5111562277,
+        "comment_id": 3932885445,
+        "commenter_id": 322678619,
+        "body": "```suggestion\n### Using `aria-owns`\n```",
+        "created_at": "2026-09-04T09:56:23Z",
+        "updated_at": "2026-09-04T09:56:23Z"
+    },
+    {
+        "review_id": 5111562277,
+        "comment_id": 3932885456,
+        "commenter_id": 322678619,
+        "body": "```suggestion\n### Keeping `aria-expanded` in Sync\n```",
+        "created_at": "2026-09-04T09:56:23Z",
+        "updated_at": "2026-09-04T09:56:23Z"
+    },
+    {
+        "review_id": 5082740707,
+        "comment_id": 3908125706,
+        "commenter_id": 1884376,
+        "body": "tests need to be updated, this now needs\r\n```suggestion\r\nassert.equal(document.querySelectorAll('.controls select option')?.[0]?.textContent?.trim(), 'Food');\r\n```\r\n\r\nsimilar change need to all others, currently tests fail",
+        "created_at": "2026-09-01T20:26:28Z",
+        "updated_at": "2026-09-01T20:35:54Z"
+    },
+    {
+        "review_id": 5082740707,
+        "comment_id": 3908129216,
+        "commenter_id": 1884376,
+        "body": "please also update the solution",
+        "created_at": "2026-09-01T20:26:51Z",
+        "updated_at": "2026-09-01T20:35:54Z"
+    },
+    {
+        "review_id": 5082740707,
+        "comment_id": 3908165146,
+        "commenter_id": 1884376,
+        "body": "```suggestion\r\nconst explorer = await __helpers.Explorer(code);\r\nconst { addEntry } = explorer.functions;\r\nassert.exists(addEntry);\r\n\r\nconst { targetInputContainer } = addEntry.variables;\r\nassert.exists(targetInputContainer);\r\n\r\nassert.isTrue(\r\n  targetInputContainer.value.matches(\r\n    'document.querySelector(\"#\" + category + \" .input-container\")'\r\n  )\r\n);\r\n```",
+        "created_at": "2026-09-01T20:30:56Z",
+        "updated_at": "2026-09-01T20:35:54Z"
+    },
+    {
+        "review_id": 5082740707,
+        "comment_id": 3908195680,
+        "commenter_id": 1884376,
+        "body": "```suggestion\r\nUse concatenation to combine `\"#\"`, the `category` variable, and `\" .input-container\"` (note the space before `.input-container`), and pass that string to `querySelector()`.\r\n```",
+        "created_at": "2026-09-01T20:34:28Z",
+        "updated_at": "2026-09-01T20:35:54Z"
+    },
+    {
+        "review_id": 5082740707,
+        "comment_id": 3908203901,
+        "commenter_id": 1884376,
+        "body": "```suggestion\r\nassert.match(addEntry.toString(), /document\\.querySelector\\(\\s*((\"|')#\\1\\s*\\+)?\\s*category/);\r\n```\r\n\r\nin this way it is really testing just for `category`",
+        "created_at": "2026-09-01T20:35:26Z",
+        "updated_at": "2026-09-01T20:35:54Z"
+    },
+    {
+        "review_id": 5083069731,
+        "comment_id": 3908405935,
+        "commenter_id": 188833117,
+        "body": "```suggestion\r\nDeclare a new `targetInputContainer` variable, and assign it the value of `document.querySelector()`.\r\n```",
+        "created_at": "2026-09-01T21:01:29Z",
+        "updated_at": "2026-09-01T21:01:30Z"
+    },
+    {
+        "review_id": 5083112418,
+        "comment_id": 3908444840,
+        "commenter_id": 188833117,
+        "body": "```suggestion\nassert.match(addEntry.toString(), /document\\.querySelector\\(\\s*(?:(\"|')#\\1\\s*\\+)?\\s*category/);\n```",
+        "created_at": "2026-09-01T21:06:46Z",
+        "updated_at": "2026-09-01T21:06:46Z"
+    },
+    {
+        "review_id": 5060674364,
+        "comment_id": 3889225476,
+        "commenter_id": 1884376,
+        "body": "Section header has typos: \"Accessiility\" and \"Perfomance\".",
+        "created_at": "2026-08-30T11:23:33Z",
+        "updated_at": "2026-08-30T11:23:33Z"
+    },
+    {
+        "review_id": 5081346715,
+        "comment_id": 3906901225,
+        "commenter_id": 1884376,
+        "body": "```suggestion\n## Accessibility and Performance Considerations\n```\n",
+        "created_at": "2026-09-01T17:59:58Z",
+        "updated_at": "2026-09-01T17:59:58Z"
+    }
+]

@@ -1,0 +1,751 @@
+[
+    {
+        "issue_id": 5367706058,
+        "number": 69917,
+        "title": "[Bug]:",
+        "creator_id": 26656284,
+        "labels": [
+            {
+                "label_id": 252661769,
+                "label_name": "impact:auth-provider",
+                "description": "Auth, provider routing, model choice, or SecretRef resolution may break."
+            },
+            {
+                "label_id": 807966675,
+                "label_name": "bug",
+                "description": "Something isn't working"
+            },
+            {
+                "label_id": 6294660104,
+                "label_name": "bug:crash",
+                "description": "Process/app exits unexpectedly or hangs"
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "comments": 2,
+        "created_at": "2026-09-06T21:16:35Z",
+        "updated_at": "2026-09-07T07:02:17Z",
+        "closed_at": null,
+        "body": "# Explanation of issue with the workshop code\n\nAfter finishing the Workshop \"Build a medical data validator\" as part of the Python certification curriculum, I tried running the finished code (in Python version 13.3+) and was surprised by several Syntax Warnings which complained about something being wrong with the regular expression being passed to `re.fullmatch()`. \n\nUpon reading in the documentation for the `re` module, I discovered one is now supposed to use the raw string notation for regular expression patterns, e.g. \n\n```re.fullmatch('v\\d+', last_visit_id, re.IGNORECASE)``` \n\nshould be rewritten as: \n\n```re.fullmatch(r'v\\d+', last_visit_id, re.IGNORECASE)```\n\n\nAfter changing the two occurrences in the code, the warnings disappeared.\n\n## Workshop source files\n\nSource files are located in `curriculum/challenges/english/blocks/workshop-medical-data-validator` in the repository or in this [GitHub link](https://github.com/freeCodeCamp/freeCodeCamp/tree/main/curriculum/challenges/english/blocks/workshop-medical-data-validator)\n\n## Excerpt of `re` module documentation explaining the issue\n\n> Also, please note that any invalid escape sequences in Python’s usage of the backslash in string literals now generate a [SyntaxWarning](https://docs.python.org/3/library/exceptions.html#SyntaxWarning) and in the future this will become a [SyntaxError](https://docs.python.org/3/library/exceptions.html#SyntaxError). This behaviour will happen even if it is a valid escape sequence for a regular expression.\n>\n> The solution is to use Python’s raw string notation for regular expression patterns; backslashes are not handled in any special way in a string literal prefixed with 'r'. So r\"\\n\" is a two-character string containing '\\' and 'n', while \"\\n\" is a one-character string containing a newline. Usually patterns will be expressed in Python code using this raw string notation."
+    },
+    {
+        "issue_id": 5361606239,
+        "number": 69908,
+        "title": "fix(curriculum): add headers to responsive web design lecture",
+        "creator_id": 188833117,
+        "labels": [
+            {
+                "label_id": 252661769,
+                "label_name": "impact:auth-provider",
+                "description": "Auth, provider routing, model choice, or SecretRef resolution may break."
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "comments": 0,
+        "created_at": "2026-09-05T23:28:35Z",
+        "updated_at": "2026-09-05T23:28:46Z",
+        "closed_at": null,
+        "body": "Checklist:\r\n\r\n<!-- Please follow this checklist and put an x in each of the boxes, like this: [x]. It will ensure that our team takes your pull request seriously. -->\r\n\r\n- [x] I have read and followed the [contribution guidelines](https://contribute.freecodecamp.org).\r\n- [x] I have read and followed the [how to open a pull request guide](https://contribute.freecodecamp.org/how-to-open-a-pull-request/).\r\n- [x] My pull request targets the `main` branch of freeCodeCamp.\r\n- [x] I have tested these changes either locally on my machine, or GitHub Codespaces.\r\n\r\n<!--If your pull request closes a GitHub issue, replace the XXXXX below with the issue number.-->\r\n\r\nCloses #69312 \r\n\r\n<!-- Feel free to add any additional description of changes below this line -->\r\n\r\nChanges\r\n- Added 7 section headers grouping the existing content by design term: Layout, Alignment, Composition and Balance, Hierarchy, Contrast, White Space, and UI and UX\r\n- No prose, code blocks, questions, or front matter modified, headers only\r\n\r\nTesting\r\n- Ran `pnpm run lint-challenges`, passes with no errors\r\n- Verified locally at `pnpm run develop`, viewed the lecture rendered in app, headers appear correctly at natural breaks"
+    },
+    {
+        "issue_id": 5359338175,
+        "number": 69904,
+        "title": "fix(curriculum): add section headers to ARIA roles lecture",
+        "creator_id": 322678619,
+        "labels": [
+            {
+                "label_id": 252661769,
+                "label_name": "impact:auth-provider",
+                "description": "Auth, provider routing, model choice, or SecretRef resolution may break."
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "comments": 0,
+        "created_at": "2026-09-05T16:34:49Z",
+        "updated_at": "2026-09-05T16:35:00Z",
+        "closed_at": null,
+        "body": "Checklist:\r\n\r\n<!-- Please follow this checklist and put an x in each of the boxes, like this: [x]. It will ensure that our team takes your pull request seriously. -->\r\n\r\n- [x] I have read and followed the [contribution guidelines](https://contribute.freecodecamp.org).\r\n- [x] I have read and followed the [how to open a pull request guide](https://contribute.freecodecamp.org/how-to-open-a-pull-request/).\r\n- [x] My pull request targets the `main` branch of freeCodeCamp.\r\n- [x] I have tested these changes either locally on my machine, or GitHub Codespaces.\r\n\r\n<!--If your pull request closes a GitHub issue, replace the XXXXX below with the issue number.-->\r\n\r\nCloses #69291\r\n\r\n<!-- Feel free to add any additional description of changes below this line -->\r\n### Description\r\nAdds `##` section headers to the lecture body of \"What Are ARIA Roles?\" to break the ~870-word unbroken block into scannable sections.\r\n\r\nHeaders added:\r\n- Specifying an ARIA Role\r\n- Categories of ARIA Roles\r\n- Document Structure Roles\r\n- Widget Roles\r\n- Landmark Roles\r\n- Live Region Roles\r\n- Window Roles\r\n- Abstract Roles\r\n\r\nNo prose was rewritten - only headers were inserted. Front matter, code blocks, and the `# --questions--` section are untouched.\r\n\r\nScreenshots of the rendered lecture below:\r\n\r\n<img width=\"530\" height=\"106\" alt=\"Screenshot 2026-09-05 at 9 49 49 PM\" src=\"https://github.com/user-attachments/assets/f4b1b9c4-e652-44e6-962c-1d1adac144a8\" />\r\n<img width=\"530\" height=\"471\" alt=\"Screenshot 2026-09-05 at 9 50 15 PM\" src=\"https://github.com/user-attachments/assets/22af3a77-573b-4403-8618-1a3502af8280\" />\r\n<img width=\"530\" height=\"192\" alt=\"Screenshot 2026-09-05 at 9 50 34 PM\" src=\"https://github.com/user-attachments/assets/411334c7-8b5e-4d38-b334-8ffd896094d6\" />\r\n<img width=\"530\" height=\"288\" alt=\"Screenshot 2026-09-05 at 9 50 52 PM\" src=\"https://github.com/user-attachments/assets/c4f08293-12dc-40d1-9904-0030fb768075\" />\r\n<img width=\"530\" height=\"125\" alt=\"Screenshot 2026-09-05 at 9 51 09 PM\" src=\"https://github.com/user-attachments/assets/360b8536-beac-41f7-8b12-8c45d150ac5c\" />\r\n<img width=\"530\" height=\"144\" alt=\"Screenshot 2026-09-05 at 9 51 25 PM\" src=\"https://github.com/user-attachments/assets/5be2befd-35a6-4402-8755-d90f9eb61ea7\" />\r\n<img width=\"530\" height=\"218\" alt=\"Screenshot 2026-09-05 at 9 51 51 PM\" src=\"https://github.com/user-attachments/assets/ad73726d-5b84-4ef4-8646-3a8cb87f2018\" />\r\n"
+    },
+    {
+        "issue_id": 5359100323,
+        "number": 69903,
+        "title": "fix(api): harden CSRF route matching and fix false-positive token test",
+        "creator_id": 322678619,
+        "labels": [
+            {
+                "label_id": 802122200,
+                "label_name": "platform: api",
+                "description": "Server application that needs familiarity with Express, Fastify, MongoDB etc."
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "comments": 0,
+        "created_at": "2026-09-05T15:53:42Z",
+        "updated_at": "2026-09-05T15:53:53Z",
+        "closed_at": null,
+        "body": "Checklist:\r\n\r\n<!-- Please follow this checklist and put an x in each of the boxes, like this: [x]. It will ensure that our team takes your pull request seriously. -->\r\n\r\n- [x] I have read and followed the [contribution guidelines](https://contribute.freecodecamp.org).\r\n- [x] I have read and followed the [how to open a pull request guide](https://contribute.freecodecamp.org/how-to-open-a-pull-request/).\r\n- [x] My pull request targets the `main` branch of freeCodeCamp.\r\n- [x] I have tested these changes either locally on my machine, or GitHub Codespaces.\r\n\r\n<!--If your pull request closes a GitHub issue, replace the XXXXX below with the issue number.-->\r\n\r\nCloses #69902\r\n\r\n<!-- Feel free to add any additional description of changes below this line -->\r\nThis PR addresses the outlined test-quality gaps and routing edge case \r\n\r\n**Changes included:**\r\n1. **Routing Fix:** Updated the `isSignout` check in `api/src/plugins/csrf.ts` to use Fastify's `req.routeOptions?.url` instead of `req.url`. This prevents query strings from breaking the exemption.\r\n2. **Test Fix (False Positive):** Updated the invalid-token test in `api/src/plugins/csrf.test.ts` to pass the token via `headers: { 'csrf-token': '...' }` so the cryptographic rejection is actually exercised.\r\n3. **Test Fix (Coverage):** Added a `response.statusCode` assertion to the new-token test and added a dedicated test for the `/signout` query-string behavior."
+    },
+    {
+        "issue_id": 5359025774,
+        "number": 69902,
+        "title": "CSRF plugin tests contain false-positives and routing bug on /signout",
+        "creator_id": 188833117,
+        "labels": [
+            {
+                "label_id": 802122200,
+                "label_name": "platform: api",
+                "description": "Server application that needs familiarity with Express, Fastify, MongoDB etc."
+            },
+            {
+                "label_id": 807966675,
+                "label_name": "bug",
+                "description": "Something isn't working"
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "comments": 0,
+        "created_at": "2026-09-05T15:41:04Z",
+        "updated_at": "2026-09-06T03:56:04Z",
+        "closed_at": null,
+        "body": "### Describe the Issue\n \nI was reading through the CSRF plugin tests and noticed a couple of test-quality gaps that result in false positives, along with a minor routing edge case in `csrf.ts`. None of these are exploitable vulnerabilities, but fixing them ensures the suite actually catches regressions in token validation.\n \nSpecifically:\n \n- The \"invalid token\" test is a false positive that passes due to a missing header rather than actually rejecting a bad token.\n- The \"new CSRF token\" test hides a 403 failure because it lacks a status code assertion.\n- The `/signout` route exemption breaks if a query string is present (e.g., `/signout?redirect=true`).\n \n### Affected Files\n \n- `api/src/plugins/csrf.ts`\n- `api/src/plugins/csrf.test.ts`\n### Steps to Reproduce\n \n1. Go to the `api` directory and run the test suite: `pnpm vitest run src/plugins/csrf.test.ts`. All 4 tests pass.\n2. To confirm the \"invalid token\" test is a false positive: check how it sends the payload — the bad token is sent as a `csrf_token` cookie, not a header. `getToken` only reads the `csrf-token` header, so the request 403s simply because the header is missing. Swap in a real, correctly-signed secret/token pair but keep it in the cookie instead of the header, and the request still 403s — proving the assertion never actually depended on the token being invalid.\n3. For the \"new CSRF token\" test: log `response.statusCode` inside it. It's 403, because the request sends no `_csrf` secret. The test still passes because it only checks that a cookie was set, not that the request succeeded.\n4. For `/signout`: the code checks `req.url === '/signout'`. Send a request to `/signout?redirect=true` and you'll see a CSRF cookie gets reissued, because the query string keeps the check from matching.\n### Expected Behavior\n \n- The invalid-token test should send the bogus value via `headers: { 'csrf-token': 'bad-value' }`, alongside a valid `_csrf` cookie, so it actually exercises the validation-failure path.\n- The \"new CSRF token\" test should assert `response.statusCode` and adjust the request so it legitimately succeeds.\n- The `/signout` exemption should use Fastify's `req.routeOptions.url` instead of `req.url`, so the route match is stable and ignores query strings.\n"
+    },
+    {
+        "issue_id": 5358207722,
+        "number": 69901,
+        "title": "fix(curriculum): freeze RSVP confirmation message on submit",
+        "creator_id": 322678619,
+        "labels": [
+            {
+                "label_id": 252661769,
+                "label_name": "impact:auth-provider",
+                "description": "Auth, provider routing, model choice, or SecretRef resolution may break."
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "comments": 0,
+        "created_at": "2026-09-05T13:15:48Z",
+        "updated_at": "2026-09-05T13:15:59Z",
+        "closed_at": null,
+        "body": "Fixes #69837\r\n\r\n## Bug\r\nAfter submitting the RSVP form, the confirmation message read directly from the live form state. This meant editing any input after submission (without resubmitting) would also update the already-displayed confirmation message, even though nothing was resubmitted.\r\n\r\n## Fix\r\n\r\nAdded a separate `rsvpDetails` state that snapshots the form data at the moment of submit (inside `handleSubmit`), and updated the confirmation message to render from that snapshot instead of the live `formData`. This freezes the confirmation at its originally submitted values regardless of further edits to the form.\r\n\r\n## Testing\r\n\r\nVerified the behavior change in an isolated CodePen reproduction using the same component logic: submitted the form, then edited an input without resubmitting, and confirmed the confirmation message stayed frozen (previously it would update live).\r\n\r\n## Note\r\n\r\nI noticed #69841 is already open addressing this same issue. Submitting this  on freeCodeCamp's contribution workflow — happy to have this closed if that one merges first.\r\n\r\nChecklist:\r\n\r\n<!-- Please follow this checklist and put an x in each of the boxes, like this: [x]. It will ensure that our team takes your pull request seriously. -->\r\n\r\n- [ x] I have read and followed the [contribution guidelines](https://contribute.freecodecamp.org).\r\n- [ x] I have read and followed the [how to open a pull request guide](https://contribute.freecodecamp.org/how-to-open-a-pull-request/).\r\n- [ x] My pull request targets the `main` branch of freeCodeCamp.\r\n- [ ] I have tested these changes either locally on my machine, or GitHub Codespaces.\r\n\r\n<!--If your pull request closes a GitHub issue, replace the #69837 below with the issue number.-->\r\n\r\nCloses #69837\r\n\r\n<!-- Feel free to add any additional description of changes below this line -->\r\n"
+    },
+    {
+        "issue_id": 5357793555,
+        "number": 69900,
+        "title": "fix(curriculum): add section header to array method section",
+        "creator_id": 322678619,
+        "labels": [
+            {
+                "label_id": 252661769,
+                "label_name": "impact:auth-provider",
+                "description": "Auth, provider routing, model choice, or SecretRef resolution may break."
+            },
+            {
+                "label_id": 786320697,
+                "label_name": "status: waiting update",
+                "description": "Is awaiting update, after feedback or request for changes"
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "comments": 0,
+        "created_at": "2026-09-05T12:01:36Z",
+        "updated_at": "2026-09-05T15:11:58Z",
+        "closed_at": null,
+        "body": "Checklist:\r\n\r\n<!-- Please follow this checklist and put an x in each of the boxes, like this: [x]. It will ensure that our team takes your pull request seriously. -->\r\n\r\n- [x] I have read and followed the [contribution guidelines](https://contribute.freecodecamp.org).\r\n- [x] I have read and followed the [how to open a pull request guide](https://contribute.freecodecamp.org/how-to-open-a-pull-request/).\r\n- [x] My pull request targets the `main` branch of freeCodeCamp.\r\n- [x] I have tested these changes either locally on my machine, or GitHub Codespaces.\r\n\r\n<!--If your pull request closes a GitHub issue, replace the XXXXX below with the issue number.-->\r\n\r\nCloses #69313\r\n\r\n<!-- Feel free to add any additional description of changes below this line -->\r\n\r\nSummary\r\n\r\nAdds ## section headers to the # --interactive-- body of the splice() lecture challenge to improve scannability, following the existing convention used in other lecture challenges (e.g. \"How Does the Sort Method Work?\").\r\n\r\nFile changed\r\n\r\ncurriculum/challenges/english/blocks/lecture-working-with-common-array-methods/6732b284901f8c1539e20bcb.md\r\n\r\nChanges\r\n\r\nInserted 7 ## Title Case headers to break up the ~607-word lecture body into logical sections:\r\n\r\n## Removing Elements\r\n## Adding Elements\r\n## Removing and Adding Elements Together\r\n## Avoiding Mutation with a Copy\r\n## Removing a Known Element\r\n## Clearing an Array\r\n## Performance Considerations\r\n\r\nNo prose was rewritten — only headers were inserted at existing paragraph/topic boundaries. The # --questions-- section, code blocks, and front matter are untouched.\r\n\r\nWhy\r\n\r\nThe lecture previously had no internal structure, making it hard to scan on the page, especially given how many distinct splice() use cases are covered in sequence (remove, add, remove+add, copy-safe usage, remove-by-index, clear-all, performance notes). This mirrors the pattern already established in lecture-working-with-higher-order-functions-and-callbacks/673362d7f94d551edb532d24.md, where short headers precede each major sub-topic.\r\n"
+    },
+    {
+        "issue_id": 5357168893,
+        "number": 69898,
+        "title": "fix(curriculum): check donation input order",
+        "creator_id": 263526659,
+        "labels": [
+            {
+                "label_id": 252661769,
+                "label_name": "impact:auth-provider",
+                "description": "Auth, provider routing, model choice, or SecretRef resolution may break."
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "comments": 0,
+        "created_at": "2026-09-05T09:58:24Z",
+        "updated_at": "2026-09-05T09:59:55Z",
+        "closed_at": null,
+        "body": "Checklist:\n\n<!-- Please follow this checklist and put an x in each of the boxes, like this: [x]. It will ensure that our team takes your pull request seriously. -->\n\n- [x] I have read and followed the [contribution guidelines](https://contribute.freecodecamp.org).\n- [x] I have read and followed the [how to open a pull request guide](https://contribute.freecodecamp.org/how-to-open-a-pull-request/).\n- [x] My pull request targets the `main` branch of freeCodeCamp.\n- [x] I have tested these changes either locally on my machine, or GitHub Codespaces.\n\n<!--If your pull request closes a GitHub issue, replace the XXXXX below with the issue number.-->\n\n\n<!-- Feel free to add any additional description of changes below this line -->\n\nIf campers nest the input inside the label previous tests would fail unexplained. Now they pass.\n"
+    },
+    {
+        "issue_id": 5356802581,
+        "number": 69897,
+        "title": "Movie Ticket Booking Calculator tests reject valid print calls and an equivalent condition",
+        "creator_id": 1884376,
+        "labels": [
+            {
+                "label_id": 252661769,
+                "label_name": "impact:auth-provider",
+                "description": "Auth, provider routing, model choice, or SecretRef resolution may break."
+            },
+            {
+                "label_id": 6294660104,
+                "label_name": "bug:crash",
+                "description": "Process/app exits unexpectedly or hangs"
+            },
+            {
+                "label_id": 9621717691,
+                "label_name": "Naomi's Sprints",
+                "description": "This label is for issues that Naomi is managing through her sprint initiatives on Discord."
+            }
+        ],
+        "state": "open",
+        "locked": true,
+        "comments": 3,
+        "created_at": "2026-09-05T08:42:02Z",
+        "updated_at": "2026-09-06T05:05:01Z",
+        "closed_at": null,
+        "body": "### Want to Contribute?\n\nThis issue is part of the **Contributor Sprint** initiative. To work on it:\n\n1. Join our Discord: https://chat.freecodecamp.org\n2. Claim the **Naomi's Sprints** role\n3. Ping Naomi in `#naomis-sprints` to be assigned this ticket\n\n### Describe the Issue\n\nSome tests in Build a Movie Ticket Booking Calculator reject code that satisfies the instructions.\n\n1. The final print tests in Steps 9, 13, 20, and 21 require specific argument syntax.\n\n   The instructions ask learners to print the label followed by the variable's value without requiring comma-separated arguments. These f-string calls produce the requested output but fail the corresponding tests:\n\n   ```py\n   print(f'Discount: {discount}')\n   print(f'Extra charges: {extra_charges}')\n   print(f'Service charges: {service_charges}')\n   print(f'Final price of ticket: {final_price}')\n   ```\n\n2. Step 20 requires one operand order for the new `elif` condition.\n\n   The instructions ask learners to check whether `seat_type` equals `Gold`. Adding `elif 'Gold' == seat_type:` satisfies that requirement, but fails both the condition test and the final print test. The latter compares the entire nested conditional block, so it reports a print-location failure even when `print('Service charges:', service_charges)` is correctly positioned.\n\n\n### Affected Pages\n\n- https://www.freecodecamp.org/learn/python-v9/workshop-movie-ticket-booking-calculator/step-9\n- https://www.freecodecamp.org/learn/python-v9/workshop-movie-ticket-booking-calculator/step-13\n- https://www.freecodecamp.org/learn/python-v9/workshop-movie-ticket-booking-calculator/step-20\n- https://www.freecodecamp.org/learn/python-v9/workshop-movie-ticket-booking-calculator/step-21\n\n### Expected behavior\n\n1. The print tests accept f-strings that display the required labels and variable values at the required positions.\n2. Step 20 accepts either operand order for the equality comparison in the new `elif` clause. A correctly positioned print call does not fail its test because of the equivalent comparison.\n"
+    },
+    {
+        "issue_id": 5356756841,
+        "number": 69896,
+        "title": "fix(curriculum): add section headers to calc() lecture",
+        "creator_id": 188833117,
+        "labels": [
+            {
+                "label_id": 199856930,
+                "label_name": "status: waiting review",
+                "description": "To be applied to PR's that are ready for QA, especially when additional review is pending."
+            },
+            {
+                "label_id": 252661769,
+                "label_name": "impact:auth-provider",
+                "description": "Auth, provider routing, model choice, or SecretRef resolution may break."
+            },
+            {
+                "label_id": 9621717691,
+                "label_name": "Naomi's Sprints",
+                "description": "This label is for issues that Naomi is managing through her sprint initiatives on Discord."
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "comments": 0,
+        "created_at": "2026-09-05T08:33:46Z",
+        "updated_at": "2026-09-05T14:40:16Z",
+        "closed_at": null,
+        "body": "Checklist:\n\n<!-- Please follow this checklist and put an x in each of the boxes, like this: [x]. It will ensure that our team takes your pull request seriously. -->\n\n- [x] I have read and followed the [contribution guidelines](https://contribute.freecodecamp.org).\n- [x] I have read and followed the [how to open a pull request guide](https://contribute.freecodecamp.org/how-to-open-a-pull-request/).\n- [x] My pull request targets the `main` branch of freeCodeCamp.\n- [x] I have tested these changes either locally on my machine, or GitHub Codespaces.\n\n<!--If your pull request closes a GitHub issue, replace the XXXXX below with the issue number.-->\n\nCloses #69290\n\n<!-- Feel free to add any additional description of changes below this line -->\n\nAdds section headers to break the CSS `calc()` lecture into logical sections without changing the existing prose, code blocks, questions, or front matter.\n\nTested the affected curriculum block locally. All 11 tests pass, and the file passes the challenge linter and Prettier check.\n"
+    },
+    {
+        "issue_id": 5356363448,
+        "number": 69894,
+        "title": "fix(client): update homepage meta title",
+        "creator_id": 322678619,
+        "labels": [
+            {
+                "label_id": 199856930,
+                "label_name": "status: waiting review",
+                "description": "To be applied to PR's that are ready for QA, especially when additional review is pending."
+            },
+            {
+                "label_id": 802122369,
+                "label_name": "platform: learn",
+                "description": "UI side of the client application that needs familiarity with React, Gatsby etc."
+            },
+            {
+                "label_id": 1088403396,
+                "label_name": "scope: i18n",
+                "description": "language translation/internationalization. Often combined with language type label"
+            },
+            {
+                "label_id": 1088631905,
+                "label_name": "scope: tools/scripts",
+                "description": "Scripts for supporting dev work, generating config and build artifacts, etc."
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "comments": 1,
+        "created_at": "2026-09-05T07:11:58Z",
+        "updated_at": "2026-09-06T10:21:42Z",
+        "closed_at": null,
+        "body": "Checklist:\r\n\r\n<!-- Please follow this checklist and put an x in each of the boxes, like this: [x]. It will ensure that our team takes your pull request seriously. -->\r\n\r\n- [x] I have read and followed the [contribution guidelines](https://contribute.freecodecamp.org).\r\n- [x] I have read and followed the [how to open a pull request guide](https://contribute.freecodecamp.org/how-to-open-a-pull-request/).\r\n- [x] My pull request targets the `main` branch of freeCodeCamp.\r\n- [x] I have tested these changes either locally on my machine, or GitHub Codespaces.\r\n\r\n<!--If your pull request closes a GitHub issue, replace the XXXXX below with the issue number.-->\r\n\r\nCloses #XXXXX\r\n\r\n<!-- Feel free to add any additional description of changes below this line -->\r\n"
+    },
+    {
+        "issue_id": 5355576384,
+        "number": 69892,
+        "title": "fix(tests): use exact filename matching in external-curriculum superblock classification",
+        "creator_id": 1884376,
+        "labels": [
+            {
+                "label_id": 802122369,
+                "label_name": "platform: learn",
+                "description": "UI side of the client application that needs familiarity with React, Gatsby etc."
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "comments": 1,
+        "created_at": "2026-09-05T04:33:34Z",
+        "updated_at": "2026-09-05T04:36:11Z",
+        "closed_at": null,
+        "body": "Substring matching caused block-based catalog files (e.g. introduction-to-algorithms-and-data-structures.json) to be misclassified as chapter-based when a chapter-based superblock slug (e.g. algorithms-and-data-structure) appeared as a substring in the filename. Switch all three fileFilter callbacks to exact filename comparison (entry.basename === \\${superBlock}.json``) to prevent false matches.\r\n\r\nFixes the test failures reported in #69873.\r\n\r\nChecklist:\r\n\r\n- [x] I have read and followed the [contribution guidelines](https://contribute.freecodecamp.org).\r\n- [x] I have read and followed the [how to open a pull request guide](https://contribute.freecodecamp.org/how-to-open-a-pull-request/).\r\n- [x] My pull request targets the `main` branch of freeCodeCamp.\r\n- [x] I have tested these changes either locally on my machine, or GitHub Codespaces.\r\n\r\nCloses #69877 "
+    },
+    {
+        "issue_id": 5355192549,
+        "number": 69891,
+        "title": "fix(curriculum): add section headers to class inheritance lecture",
+        "creator_id": 263526659,
+        "labels": [
+            {
+                "label_id": 199856930,
+                "label_name": "status: waiting review",
+                "description": "To be applied to PR's that are ready for QA, especially when additional review is pending."
+            },
+            {
+                "label_id": 252661769,
+                "label_name": "impact:auth-provider",
+                "description": "Auth, provider routing, model choice, or SecretRef resolution may break."
+            },
+            {
+                "label_id": 9621717691,
+                "label_name": "Naomi's Sprints",
+                "description": "This label is for issues that Naomi is managing through her sprint initiatives on Discord."
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "comments": 0,
+        "created_at": "2026-09-05T03:11:05Z",
+        "updated_at": "2026-09-05T13:25:29Z",
+        "closed_at": null,
+        "body": "Checklist:\r\n\r\n<!-- Please follow this checklist and put an x in each of the boxes, like this: [x]. It will ensure that our team takes your pull request seriously. -->\r\n\r\n- [x] I have read and followed the [contribution guidelines](https://contribute.freecodecamp.org).\r\n- [x] I have read and followed the [how to open a pull request guide](https://contribute.freecodecamp.org/how-to-open-a-pull-request/).\r\n- [x] My pull request targets the `main` branch of freeCodeCamp.\r\n- [x] I have tested these changes either locally on my machine, or GitHub Codespaces.\r\n\r\n<!--If your pull request closes a GitHub issue, replace the XXXXX below with the issue number.-->\r\n\r\nCloses #69298\r\n\r\n<!-- Feel free to add any additional description of changes below this line -->\r\n\r\nAdd Section Headers:\r\n\r\n```\r\n## Parent and Child Classes\r\n\r\n## The extends Keyword\r\n\r\n## Using `super()`\r\n\r\n## Advantages of Inheritance\r\n```\r\n\r\n"
+    },
+    {
+        "issue_id": 5350192452,
+        "number": 69878,
+        "title": "fix(curriculum): add section headers to hsl color model lecture",
+        "creator_id": 322678619,
+        "labels": [
+            {
+                "label_id": 252661769,
+                "label_name": "impact:auth-provider",
+                "description": "Auth, provider routing, model choice, or SecretRef resolution may break."
+            },
+            {
+                "label_id": 786320697,
+                "label_name": "status: waiting update",
+                "description": "Is awaiting update, after feedback or request for changes"
+            },
+            {
+                "label_id": 9621717691,
+                "label_name": "Naomi's Sprints",
+                "description": "This label is for issues that Naomi is managing through her sprint initiatives on Discord."
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "comments": 0,
+        "created_at": "2026-09-04T15:52:34Z",
+        "updated_at": "2026-09-05T20:43:59Z",
+        "closed_at": null,
+        "body": "Checklist:\r\n\r\n<!-- Please follow this checklist and put an x in each of the boxes, like this: [x]. It will ensure that our team takes your pull request seriously. -->\r\n\r\n- [x] I have read and followed the [contribution guidelines](https://contribute.freecodecamp.org).\r\n- [x] I have read and followed the [how to open a pull request guide](https://contribute.freecodecamp.org/how-to-open-a-pull-request/).\r\n- [x] My pull request targets the `main` branch of freeCodeCamp.\r\n- [x] I have tested these changes either locally on my machine, or GitHub Codespaces.\r\n\r\n<!--If your pull request closes a GitHub issue, replace the XXXXX below with the issue number.-->\r\n\r\nCloses #69301\r\n\r\n<!-- Feel free to add any additional description of changes below this line -->\r\n\r\nAdd Section Headers:\r\n```\r\n## Understanding HSL\r\n\r\n## The `hsl()` Function\r\n\r\n## Creating Shades and Tints\r\n\r\n## Working with Transparency\r\n\r\n## The `hsla()` Function\r\n\r\n## Advantages of HSL\r\n```"
+    },
+    {
+        "issue_id": 5349951135,
+        "number": 69877,
+        "title": "[Bug]:",
+        "creator_id": 26656284,
+        "labels": [
+            {
+                "label_id": 807966675,
+                "label_name": "bug",
+                "description": "Something isn't working"
+            },
+            {
+                "label_id": 6294660104,
+                "label_name": "bug:crash",
+                "description": "Process/app exits unexpectedly or hangs"
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "comments": 2,
+        "created_at": "2026-09-04T15:27:05Z",
+        "updated_at": "2026-09-06T19:27:00Z",
+        "closed_at": null,
+        "body": "### Describe the Issue\n\nThe external-curriculum data tests classify generated JSON files with substring matching against every `SuperBlocks` value and every `chapterBasedSuperBlocks` value.\n\nWhen a chapter-based superblock slug is a substring of a block-based catalog course slug, the catalog file is treated as chapter-based. For example, `algorithms-and-data-structure` is contained in `introduction-to-algorithms-and-data-structures`.\n\nThe chapter-based test then reads the catalog file and accesses `superBlockData.chapters`. Catalog data is block-based and has `blocks`, so the test fails while attempting to call `filter` on `undefined`.\n\nThis failed in both [Test (24)](https://github.com/freeCodeCamp/freeCodeCamp/actions/runs/33883479525/job/101063377250) and [Test - Upcoming Changes (24)](https://github.com/freeCodeCamp/freeCodeCamp/actions/runs/33883479525/job/101063377396) on [PR #69873](https://github.com/freeCodeCamp/freeCodeCamp/pull/69873).\n\n### Affected Pages\n\nNot applicable. This affects the client external-curriculum test suite.\n\n### Expected behavior\n\nThe external-curriculum tests should classify generated superblock files by their exact superblock filename. A block-based catalog course should remain block-based when its slug contains the slug of a chapter-based upcoming course.\n"
+    },
+    {
+        "issue_id": 5345920385,
+        "number": 69873,
+        "title": "feat: split python certifications",
+        "creator_id": 26656284,
+        "labels": [
+            {
+                "label_id": 802122369,
+                "label_name": "platform: learn",
+                "description": "UI side of the client application that needs familiarity with React, Gatsby etc."
+            },
+            {
+                "label_id": 1088403396,
+                "label_name": "scope: i18n",
+                "description": "language translation/internationalization. Often combined with language type label"
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "comments": 0,
+        "created_at": "2026-09-04T08:21:29Z",
+        "updated_at": "2026-09-04T15:22:02Z",
+        "closed_at": null,
+        "body": "Checklist:\r\n\r\n<!-- Please follow this checklist and put an x in each of the boxes, like this: [x]. It will ensure that our team takes your pull request seriously. -->\r\n\r\n- [ ] I have read and followed the [contribution guidelines](https://contribute.freecodecamp.org).\r\n- [ ] I have read and followed the [how to open a pull request guide](https://contribute.freecodecamp.org/how-to-open-a-pull-request/).\r\n- [ ] My pull request targets the `main` branch of freeCodeCamp.\r\n- [ ] I have tested these changes either locally on my machine, or GitHub Codespaces.\r\n\r\n<!--If your pull request closes a GitHub issue, replace the XXXXX below with the issue number.-->\r\n\r\nRef https://github.com/freeCodeCamp/fCC10/issues/134 for content\r\n\r\n<!-- Feel free to add any additional description of changes below this line -->\r\n"
+    },
+    {
+        "issue_id": 5345482071,
+        "number": 69871,
+        "title": "[Bug]:",
+        "creator_id": 322678619,
+        "labels": [
+            {
+                "label_id": 252661769,
+                "label_name": "impact:auth-provider",
+                "description": "Auth, provider routing, model choice, or SecretRef resolution may break."
+            },
+            {
+                "label_id": 807966675,
+                "label_name": "bug",
+                "description": "Something isn't working"
+            },
+            {
+                "label_id": 6294660104,
+                "label_name": "bug:crash",
+                "description": "Process/app exits unexpectedly or hangs"
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "comments": 0,
+        "created_at": "2026-09-04T07:29:43Z",
+        "updated_at": "2026-09-04T10:17:20Z",
+        "closed_at": null,
+        "body": "### Describe the Issue\n\nJudging by the presence of the Computer Basics module, I believe that the target audience for the Responsive Web Design certification includes people who have never used a computer before. I think the HTML Module could be structured better to accommodate this section of people.\n\nWhile I understand that HTML module was placed before Computer Basics to get campers to start coding right off the bat, I think the theory aspect might alienate tech-illiterate people. The HTML module talks about web pages, search engine optimization, CSS, Accessibility  and what not which will scare away people who don't know what a search engine is until Computer Basics. I have seen this phenomenon live observing my cousin go through the course content.\n\n### Affected Page\n\nhttps://www.freecodecamp.org/learn/responsive-web-design-v9\n\n### Your code\n\nn/a\n\n\n### Expected behavior\n\nn/a\n\n### Screenshots\n\nI think a gentler approach should be taken with the introduction. Maybe move Computer Basics to the start and sprinkle some HTML challenges in that module? I understand that videos are unmaintainable, but maybe pictures and illustrations would massively help people with understanding course content?\n\n### System\n\nn/a\n\n\n### Additional context\n\n_No response_"
+    },
+    {
+        "issue_id": 5341646007,
+        "number": 69866,
+        "title": "fix(curriculum): add missing semicolon in JS Functions Quiz",
+        "creator_id": 188833117,
+        "labels": [
+            {
+                "label_id": 252661769,
+                "label_name": "impact:auth-provider",
+                "description": "Auth, provider routing, model choice, or SecretRef resolution may break."
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "comments": 0,
+        "created_at": "2026-09-03T21:27:36Z",
+        "updated_at": "2026-09-06T13:56:15Z",
+        "closed_at": null,
+        "body": "Checklist:\r\n\r\n<!-- Please follow this checklist and put an x in each of the boxes, like this: [x]. It will ensure that our team takes your pull request seriously. -->\r\n\r\n- [x] I have read and followed the [contribution guidelines](https://contribute.freecodecamp.org).\r\n- [x] I have read and followed the [how to open a pull request guide](https://contribute.freecodecamp.org/how-to-open-a-pull-request/).\r\n- [x] My pull request targets the `main` branch of freeCodeCamp.\r\n- [x] I have tested these changes either locally on my machine, or GitHub Codespaces.\r\n\r\nChoices and code blocks are missing semicolons for code consistency"
+    },
+    {
+        "issue_id": 5335438003,
+        "number": 69860,
+        "title": "test: consolidate certification claim flow",
+        "creator_id": 322678619,
+        "labels": [
+            {
+                "label_id": 802122369,
+                "label_name": "platform: learn",
+                "description": "UI side of the client application that needs familiarity with React, Gatsby etc."
+            },
+            {
+                "label_id": 1088631905,
+                "label_name": "scope: tools/scripts",
+                "description": "Scripts for supporting dev work, generating config and build artifacts, etc."
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "comments": 0,
+        "created_at": "2026-09-03T10:32:50Z",
+        "updated_at": "2026-09-03T14:54:09Z",
+        "closed_at": null,
+        "body": "Checklist:\n\n- [x] I have read and followed the [contribution guidelines](https://contribute.freecodecamp.org).\n- [x] I have read and followed the [how to open a pull request guide](https://contribute.freecodecamp.org/how-to-open-a-pull-request/).\n- [x] My pull request targets the `main` branch of freeCodeCamp.\n- [x] I have tested these changes either locally on my machine, or GitHub Codespaces."
+    },
+    {
+        "issue_id": 5334264168,
+        "number": 69858,
+        "title": "test: consolidate newsletter preference flows",
+        "creator_id": 322678619,
+        "labels": [
+            {
+                "label_id": 199856930,
+                "label_name": "status: waiting review",
+                "description": "To be applied to PR's that are ready for QA, especially when additional review is pending."
+            },
+            {
+                "label_id": 802122369,
+                "label_name": "platform: learn",
+                "description": "UI side of the client application that needs familiarity with React, Gatsby etc."
+            },
+            {
+                "label_id": 1088631905,
+                "label_name": "scope: tools/scripts",
+                "description": "Scripts for supporting dev work, generating config and build artifacts, etc."
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "comments": 0,
+        "created_at": "2026-09-03T08:33:30Z",
+        "updated_at": "2026-09-04T15:00:17Z",
+        "closed_at": null,
+        "body": "Checklist:\n\n- [x] I have read and followed the [contribution guidelines](https://contribute.freecodecamp.org).\n- [x] I have read and followed the [how to open a pull request guide](https://contribute.freecodecamp.org/how-to-open-a-pull-request/).\n- [x] My pull request targets the `main` branch of freeCodeCamp.\n- [x] I have tested these changes either locally on my machine, or GitHub Codespaces."
+    },
+    {
+        "issue_id": 5334159334,
+        "number": 69857,
+        "title": "test: consolidate profile settings flows",
+        "creator_id": 26656284,
+        "labels": [
+            {
+                "label_id": 199856930,
+                "label_name": "status: waiting review",
+                "description": "To be applied to PR's that are ready for QA, especially when additional review is pending."
+            },
+            {
+                "label_id": 802122369,
+                "label_name": "platform: learn",
+                "description": "UI side of the client application that needs familiarity with React, Gatsby etc."
+            },
+            {
+                "label_id": 1088631905,
+                "label_name": "scope: tools/scripts",
+                "description": "Scripts for supporting dev work, generating config and build artifacts, etc."
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "comments": 0,
+        "created_at": "2026-09-03T08:22:58Z",
+        "updated_at": "2026-09-04T15:00:31Z",
+        "closed_at": null,
+        "body": "Checklist:\n\n- [x] I have read and followed the [contribution guidelines](https://contribute.freecodecamp.org).\n- [x] I have read and followed the [how to open a pull request guide](https://contribute.freecodecamp.org/how-to-open-a-pull-request/).\n- [x] My pull request targets the `main` branch of freeCodeCamp.\n- [x] I have tested these changes either locally on my machine, or GitHub Codespaces."
+    },
+    {
+        "issue_id": 5333902553,
+        "number": 69856,
+        "title": "test(e2e): organize mobile upper jaw interactions",
+        "creator_id": 188833117,
+        "labels": [
+            {
+                "label_id": 199856930,
+                "label_name": "status: waiting review",
+                "description": "To be applied to PR's that are ready for QA, especially when additional review is pending."
+            },
+            {
+                "label_id": 1088631905,
+                "label_name": "scope: tools/scripts",
+                "description": "Scripts for supporting dev work, generating config and build artifacts, etc."
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "comments": 0,
+        "created_at": "2026-09-03T07:55:05Z",
+        "updated_at": "2026-09-04T15:00:40Z",
+        "closed_at": null,
+        "body": "Checklist:\n\n- [x] I have read and followed the [contribution guidelines](https://contribute.freecodecamp.org).\n- [x] I have read and followed the [how to open a pull request guide](https://contribute.freecodecamp.org/how-to-open-a-pull-request/).\n- [x] My pull request targets the `main` branch of freeCodeCamp.\n- [x] I have tested these changes either locally on my machine, or GitHub Codespaces."
+    },
+    {
+        "issue_id": 5330846531,
+        "number": 69853,
+        "title": "fix(shared): only treat whole-string status codes as reserved usernames",
+        "creator_id": 322678619,
+        "labels": [],
+        "state": "open",
+        "locked": false,
+        "comments": 0,
+        "created_at": "2026-09-03T00:50:23Z",
+        "updated_at": "2026-09-03T00:50:24Z",
+        "closed_at": null,
+        "body": "Checklist:\n\n<!-- Please follow this checklist and put an x in each of the boxes, like this: [x]. It will ensure that our team takes your pull request seriously. -->\n\n- [x] I have read and followed the [contribution guidelines](https://contribute.freecodecamp.org).\n- [x] I have read and followed the [how to open a pull request guide](https://contribute.freecodecamp.org/how-to-open-a-pull-request/).\n- [x] My pull request targets the `main` branch of freeCodeCamp.\n- [x] I have tested these changes either locally on my machine, or GitHub Codespaces.\n\n<!-- Feel free to add any additional description of changes below this line -->\n\n### What\n\n`isHttpStatusCode` in `packages/shared/src/utils/validate.ts` uses `parseInt`, which stops at the first non-digit. Any username that merely starts with a 100-599 prefix is therefore rejected with a factually wrong message:\n\n```\n\"500px\"        -> Username \"500px\" is a reserved error code\n\"404notfound\"  -> Username \"404notfound\" is a reserved error code\n\"200ok\"        -> Username \"200ok\" is a reserved error code\n\"789\"          -> valid (789 is not a status code, correct)\n```\n\nThe sibling test states the intent: \"rejects strings which are http response status codes 100-599\". `500px` is not a status code.\n\n### Changes\n\nAn anchored regex, `/^[1-5][0-9]{2}$/`, so the whole string must be a status code. Every real status code stays reserved: the existing api test asserting `Username 404 is a reserved error code` is unaffected, and `0500` (no longer a parseable \"500\") is now accepted, matching the function's name and documented range.\n\n### Verification\n\nA regression test is added (\"accepts strings which merely start with a status code\"). Reverting only the source while keeping the test fails it with `{\"error\": \"is a reserved error code\", \"valid\": false}`; restoring passes the full shared validate suite (55 tests). Prettier and `tsc --noEmit` are clean on the changed files."
+    },
+    {
+        "issue_id": 5330846112,
+        "number": 69852,
+        "title": "fix(api): ignore prototype-inherited names in getChallengeIdsByBlock",
+        "creator_id": 26656284,
+        "labels": [
+            {
+                "label_id": 802122200,
+                "label_name": "platform: api",
+                "description": "Server application that needs familiarity with Express, Fastify, MongoDB etc."
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "comments": 1,
+        "created_at": "2026-09-03T00:50:19Z",
+        "updated_at": "2026-09-03T07:45:28Z",
+        "closed_at": null,
+        "body": "Checklist:\n\n<!-- Please follow this checklist and put an x in each of the boxes, like this: [x]. It will ensure that our team takes your pull request seriously. -->\n\n- [x] I have read and followed the [contribution guidelines](https://contribute.freecodecamp.org).\n- [x] I have read and followed the [how to open a pull request guide](https://contribute.freecodecamp.org/how-to-open-a-pull-request/).\n- [x] My pull request targets the `main` branch of freeCodeCamp.\n- [x] I have tested these changes either locally on my machine, or GitHub Codespaces.\n\n<!-- Feel free to add any additional description of changes below this line -->\n\n### What\n\n`getChallengeIdsByBlock` in `api/src/utils/get-challenges.ts` documents \"or empty array if block not found\", but the curriculum object comes from `JSON.parse`, so `superBlock.blocks` inherits from `Object.prototype`. A block name that collides with an inherited property passes the truthiness guard and crashes:\n\n```\ngetChallengeIdsByBlock('constructor')  ->  TypeError: Cannot read properties of undefined (reading 'map')\ngetChallengeIdsByBlock('toString')     ->  same\ngetChallengeIdsByBlock('non-existent') ->  []   (correct)\n```\n\nThis is reachable over HTTP: `DELETE /user/reset-module` does `blockIds.flatMap(getChallengeIdsByBlock)` and its schema only constrains `blockIds` to non-empty strings, so `{\"blockIds\":[\"constructor\"]}` turns the handler's documented 400 (\"No matching blocks found\") into a 500.\n\n### Changes\n\nAn own-property guard using `Object.prototype.hasOwnProperty.call`, the same idiom already used in `packages/shared/src/config/curriculum.ts`, so inherited names fall through to the documented empty-array behavior.\n\n### Verification\n\nTests added for `constructor`, `toString`, `valueOf`, `hasOwnProperty` and `__proto__` alongside the existing non-existent-block case. Reverting only the source while keeping the tests fails 5 of them with the exact `TypeError` above; restoring passes all 11. Prettier and `tsc --noEmit` are clean on the changed files."
+    },
+    {
+        "issue_id": 5329040731,
+        "number": 69847,
+        "title": "'Continue Learning' Button Bug",
+        "creator_id": 26656284,
+        "labels": [
+            {
+                "label_id": 802122369,
+                "label_name": "platform: learn",
+                "description": "UI side of the client application that needs familiarity with React, Gatsby etc."
+            },
+            {
+                "label_id": 807966675,
+                "label_name": "bug",
+                "description": "Something isn't working"
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "comments": 5,
+        "created_at": "2026-09-02T20:46:05Z",
+        "updated_at": "2026-09-04T15:12:56Z",
+        "closed_at": null,
+        "body": "### Describe the Issue\n\nWhen you have finished the end of a chapter in a course, the '**Continue Learning**' button should redirect you to the next lesson of the next chapter. But it instead redirects me to the last completed lesson of the last chapter. This may be an issue for all courses, but I have not verified that.\n\n### Affected Page\n\nhttps://www.freecodecamp.org/learn/javascript-v9/#quiz-javascript-loops\n\n### Steps to Reproduce\n\n1. Go to JavaScript course\n2. Finish the last lesson of a chapter in that course\n3. Click on 'Continue Learning'\n4. Get redirected to the last completed lesson instead of the next uncompleted one\n\n\n### Expected behavior\n\nI expect the '**Continue Learning**' button to take me to whatever the next uncompleted lesson is. \n\nAs shown in the attached screen recording below, I have already finished the `JavaScript Loops Quiz` lesson. When I click on the 'Continue Learning' button, I expect to be taken to `What Is a String Object, and How Does It Differ from String Primitive?`. But instead I'm taken back to the completed `JavaScript Loops Quiz` lesson.\n\n### Screenshots\n\nhttps://github.com/user-attachments/assets/f2cd6625-9737-4896-8811-fb19478796ef\n\n### System\n\n- Device: Windows Laptop\n- OS: Windows 11 Pro (Version: 25H2, Build: 26200.9168)\n- Browser: Brave, Google Chrome\n- Version: Brave: v1.94.119, Chrome: 152.0.7977.65\n\n\n### Additional context\n\n[Discord exchange on JS Arrays quiz](https://discord.com/channels/692816967895220344/1524492096097095901/1527317084189495396)"
+    },
+    {
+        "issue_id": 5325343534,
+        "number": 69841,
+        "title": "fix(curriculum): snapshot form data on submit to fix RSVP confirmation message bug",
+        "creator_id": 1884376,
+        "labels": [
+            {
+                "label_id": 199856930,
+                "label_name": "status: waiting review",
+                "description": "To be applied to PR's that are ready for QA, especially when additional review is pending."
+            },
+            {
+                "label_id": 252661769,
+                "label_name": "impact:auth-provider",
+                "description": "Auth, provider routing, model choice, or SecretRef resolution may break."
+            },
+            {
+                "label_id": 9222710785,
+                "label_name": "deprioritized",
+                "description": "PR reviews are deprioritized; lacks productive input and ignores codebase best practices."
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "comments": 0,
+        "created_at": "2026-09-02T14:38:57Z",
+        "updated_at": "2026-09-04T15:13:18Z",
+        "closed_at": null,
+        "body": "Checklist:\r\n\r\n<!-- Please follow this checklist and put an x in each of the boxes, like this: [x]. It will ensure that our team takes your pull request seriously. -->\r\n\r\n- [x] I have read and followed the [contribution guidelines](https://contribute.freecodecamp.org).\r\n- [x] I have read and followed the [how to open a pull request guide](https://contribute.freecodecamp.org/how-to-open-a-pull-request/).\r\n- [x] My pull request targets the `main` branch of freeCodeCamp.\r\n- [x] I have tested these changes either locally on my machine, or GitHub Codespaces.\r\n\r\n<!--If your pull request closes a GitHub issue, replace the XXXXX below with the issue number.-->\r\n\r\nCloses #69837\r\n\r\n<!-- Feel free to add any additional description of changes below this line -->\r\n"
+    },
+    {
+        "issue_id": 5323282968,
+        "number": 69839,
+        "title": "fix(client): correct scrollbar width range check",
+        "creator_id": 1884376,
+        "labels": [
+            {
+                "label_id": 802122369,
+                "label_name": "platform: learn",
+                "description": "UI side of the client application that needs familiarity with React, Gatsby etc."
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "comments": 1,
+        "created_at": "2026-09-02T11:28:28Z",
+        "updated_at": "2026-09-02T16:18:45Z",
+        "closed_at": null,
+        "body": "Checklist:\n\n<!-- Please follow this checklist and put an x in each of the boxes, like this: [x]. It will ensure that our team takes your pull request seriously. -->\n\n- [x] I have read and followed the [contribution guidelines](https://contribute.freecodecamp.org).\n- [x] I have read and followed the [how to open a pull request guide](https://contribute.freecodecamp.org/how-to-open-a-pull-request/).\n- [x] My pull request targets the `main` branch of freeCodeCamp.\n- [x] I have tested these changes either locally on my machine, or GitHub Codespaces.\n\n<!-- Feel free to add any additional description of changes below this line -->\n\n### What\n\n`getScrollbarWidth` in `client/src/utils/scrollbar-width.ts` is meant to sanitize the persisted Monaco scrollbar width to the 5-25 range, but the guard uses `||`:\n\n```ts\nreturn storedWidth >= 5 || storedWidth <= 25 ? storedWidth : 5;\n```\n\nEvery number is either `>= 5` or `<= 25`, so the condition is a tautology and the fallback is only reachable for `undefined`/`NaN`. A corrupted or hand-edited `monacoScrollbarWidth` in localStorage (`0`, `100`, `-3`) is applied verbatim to the editor: `editor.tsx` feeds this value into Monaco's `verticalScrollbarSize`/`arrowSize` and a width calculation in four places.\n\nThe condition wants `&&`. One character, plus a unit test file so the range check cannot regress silently again (the bug shipped with the original feature PR #49975 and was never caught because the file had no tests).\n\n### Verification\n\n`scrollbar-width.test.ts` covers in-range passthrough, both out-of-range sides, and the unset case, with `store` mocked. All 4 pass with the fix. Reverting only `scrollbar-width.ts` fails exactly the two out-of-range tests (`expected +0 to be 5`, `expected 100 to be 5`), so the tests isolate the change.\n\nOpened directly without an issue per the contributing FAQ guidance for small self-contained fixes; happy to open one if preferred."
+    },
+    {
+        "issue_id": 5321727557,
+        "number": 69838,
+        "title": "feat(curriculum): split Python modules lesson",
+        "creator_id": 188833117,
+        "labels": [
+            {
+                "label_id": 252661769,
+                "label_name": "impact:auth-provider",
+                "description": "Auth, provider routing, model choice, or SecretRef resolution may break."
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "comments": 1,
+        "created_at": "2026-09-02T08:40:22Z",
+        "updated_at": "2026-09-05T08:26:00Z",
+        "closed_at": null,
+        "body": "Checklist:\r\n\r\n<!-- Please follow this checklist and put an x in each of the boxes, like this: [x]. It will ensure that our team takes your pull request seriously. -->\r\n\r\n- [x] I have read and followed the [contribution guidelines](https://contribute.freecodecamp.org).\r\n- [x] I have read and followed the [how to open a pull request guide](https://contribute.freecodecamp.org/how-to-open-a-pull-request/).\r\n- [x] My pull request targets the `main` branch of freeCodeCamp.\r\n- [ ] I have tested these changes either locally on my machine, or GitHub Codespaces.\r\n\r\nNo issue.\r\n\r\nThis splits `What Is the Python Standard Library, and How Do You Import a Module?` into three lessons in the existing Working with Modules block:\r\n\r\n- `How Do You Import Python Modules?` keeps the import forms, aliases, qualified and direct imports, wildcard imports, namespace-collision guidance, and the two syntax questions.\r\n- `How Do You Create and Use Local Modules?` receives the existing `if __name__ == \"__main__\"` material.\r\n- `How Do You Find and Use Standard-Library Modules?` receives the standard-library definition, module examples, `datetime.date` example, documentation pointer, and standard-library definition question.\r\n\r\nThis draft moves existing material only. The lesson scope and remaining work are tracked below:\r\n\r\n1. **How Do You Import Python Modules?**\r\n   - [x] `import module`\r\n   - [x] `import module as alias`\r\n   - [x] `from module import name`\r\n   - [x] Aliases for imported names\r\n   - [x] Qualified names, namespace collisions, and why `import *` is usually bad\r\n   - [x] Question 1 of 3: import the entire `datetime` module with an alias.\r\n   - [x] Question 2 of 3: import `mean` from `statistics` for direct use.\r\n   - [ ] Question 3 of 3: write a question.\r\n\r\n2. **How Do You Create and Use Local Modules?**\r\n   (but do we really want all this stuff? if we only keep `__name__ == '__main__'` it goes back in the import lesson)\r\n   - [ ] Create a second `.py` file with functions or constants.\r\n   - [ ] Import that file from `main.py`.\r\n   - [x] Show direct execution versus import.\r\n   - [x] Teach `if __name__ == \"__main__\"` here, where it makes sense.\r\n   - [ ] Question 1 of 3: write a question.\r\n   - [ ] Question 2 of 3: write a question.\r\n   - [ ] Question 3 of 3: write a question.\r\n\r\n3. **How Do You Find and Use Standard-Library Modules?**\r\n   - [ ] Standard library versus third-party packages.\r\n   - [ ] Standard-library index, module pages, signatures, and examples.\r\n   - [ ] `help()` and `dir()`.\r\n   - [ ] Brief discovery examples with `math`, `random`, `re`, and `datetime`.\r\n   - [ ] Hand off module-specific behavior to dedicated lessons.\r\n   - [x] Question 1 of 3: identify the Python Standard Library.\r\n   - [ ] Question 2 of 3: write a question about API discovery.\r\n   - [ ] Question 3 of 3: write a question about API discovery.\r\n"
+    },
+    {
+        "issue_id": 5317703076,
+        "number": 69837,
+        "title": "Example project in Build an Event RSVP lab allows changes to confirmation message",
+        "creator_id": 188833117,
+        "labels": [
+            {
+                "label_id": 160629925,
+                "label_name": "help wanted",
+                "description": "Open for all. You do not need permission to work on these."
+            },
+            {
+                "label_id": 252661769,
+                "label_name": "impact:auth-provider",
+                "description": "Auth, provider routing, model choice, or SecretRef resolution may break."
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "comments": 7,
+        "created_at": "2026-09-01T23:01:46Z",
+        "updated_at": "2026-09-06T19:27:33Z",
+        "closed_at": null,
+        "body": "### Describe the Issue\n\nAfter the form is submitted, the example project allows the user to update the confirmation message with new values.\n\n### Affected Page\n\nhttps://www.freecodecamp.org/learn/front-end-development-libraries-v9/lab-event-rsvp/build-an-event-rsvp\n\n### Your code\n\n```\n\n\n\n```\n\n\n### Expected behavior\n\nAfter form submission, changing the inputs should not update the confirmation message.\n\n### Screenshots\n\n_No response_\n\n### System\n\n- Device: [e.g. iPhone 6, Laptop]\n- OS: [e.g. iOS 14, Windows 10, Ubuntu 20.04]\n- Browser: [e.g. Chrome, Safari]\n- Version: [e.g. 22]\n\n\n### Additional context\n\n_No response_"
+    },
+    {
+        "issue_id": 5304109608,
+        "number": 69827,
+        "title": "fix(curriculum): add section headers to CSS transform property",
+        "creator_id": 263526659,
+        "labels": [
+            {
+                "label_id": 252661769,
+                "label_name": "impact:auth-provider",
+                "description": "Auth, provider routing, model choice, or SecretRef resolution may break."
+            },
+            {
+                "label_id": 786320697,
+                "label_name": "status: waiting update",
+                "description": "Is awaiting update, after feedback or request for changes"
+            },
+            {
+                "label_id": 9621717691,
+                "label_name": "Naomi's Sprints",
+                "description": "This label is for issues that Naomi is managing through her sprint initiatives on Discord."
+            }
+        ],
+        "state": "open",
+        "locked": false,
+        "comments": 0,
+        "created_at": "2026-08-31T19:36:40Z",
+        "updated_at": "2026-09-05T09:51:11Z",
+        "closed_at": null,
+        "body": "Checklist:\r\n\r\n<!-- Please follow this checklist and put an x in each of the boxes, like this: [x]. It will ensure that our team takes your pull request seriously. -->\r\n\r\n- [x] I have read and followed the [contribution guidelines](https://contribute.freecodecamp.org).\r\n- [x] I have read and followed the [how to open a pull request guide](https://contribute.freecodecamp.org/how-to-open-a-pull-request/).\r\n- [x] My pull request targets the `main` branch of freeCodeCamp.\r\n- [x] I have tested these changes either locally on my machine, or GitHub Codespaces.\r\n\r\n<!--If your pull request closes a GitHub issue, replace the XXXXX below with the issue number.-->\r\n\r\nCloses #69315\r\n\r\n<!-- Feel free to add any additional description of changes below this line -->\r\n\r\n\r\n### Summary\r\nAdds `##` section headers to the `# --interactive--` body of the CSS transform lecture challenge to improve scannability, following the existing convention used in other lecture challenges (e.g. \"How Does the Sort Method Work?\").\r\n\r\n### Changes\r\nInserted 6 `##` Title Case headers to break up the ~602-word lecture body into logical sections:\r\n- `## Using Translate`\r\n- `## Using Rotate`\r\n- `## Using Scale`\r\n- `## Combining Transformations`\r\n- `## Accessibility Considerations`\r\n\r\nNo prose was rewritten — only headers were inserted at existing paragraph/topic boundaries. The `# --questions--` section, code blocks, and front matter are untouched.\r\n\r\n### Why\r\nThe lecture previously had no internal structure, making it hard to scan on the page — especially since the accessibility discussion runs long. This mirrors the pattern already established in `lecture-working-with-higher-order-functions-and-callbacks/673362d7f94d551edb532d24.md`, where short headers precede each major sub-topic.\r\n"
+    }
+]

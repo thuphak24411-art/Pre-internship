@@ -1,0 +1,1189 @@
+﻿[
+    {
+        "pull_request_id": 4420350354,
+        "commit_id": "976f887ba11edc3bc94451d0a544dc4e2ff0aefe",
+        "commit": {
+            "author": {
+                "name": "Ilenia M.",
+                "date": "2026-09-02T08:36:04Z"
+            },
+            "committer": {
+                "name": "Ilenia M.",
+                "date": "2026-09-02T08:36:04Z"
+            },
+            "message": "feat(curriculum): split Python modules lesson"
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4420350354,
+        "commit_id": "7ceebfcf7495332408240818d9e446d73af5fa19",
+        "commit": {
+            "author": {
+                "name": "Ilenia M.",
+                "date": "2026-09-03T21:08:57Z"
+            },
+            "committer": {
+                "name": "Ilenia M.",
+                "date": "2026-09-03T21:08:57Z"
+            },
+            "message": "first draft for standard library lesson",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4420350354,
+        "commit_id": "94b52579e0035f9b5e17736a7812a76b0219bf1d",
+        "commit": {
+            "author": {
+                "name": "Ilenia M.",
+                "date": "2026-09-04T15:48:17Z"
+            },
+            "committer": {
+                "name": "Ilenia M.",
+                "date": "2026-09-04T15:48:17Z"
+            },
+            "message": "corrections",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4420350354,
+        "commit_id": "cde602a243a1e12e2e8ccb5234b66dd193c9cf51",
+        "commit": {
+            "author": {
+                "name": "majestic-owl448",
+                "date": "2026-09-05T08:25:59Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "date": "2026-09-05T08:25:59Z"
+            },
+            "message": "Apply suggestions from code review\n\nCo-authored-by: Dario <105294544+Dario-DC@users.noreply.github.com>\nSigned-off-by: majestic-owl448 <26656284+majestic-owl448@users.noreply.github.com>",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4414831124,
+        "commit_id": "3117fadc568f7b19e48c59db0e7f21674fd55183",
+        "commit": {
+            "author": {
+                "name": "Mrugesh Mohapatra",
+                "date": "2026-09-01T17:31:26Z"
+            },
+            "committer": {
+                "name": "Mrugesh Mohapatra",
+                "date": "2026-09-01T17:43:25Z"
+            },
+            "message": "fix(gha): harden ssh preflight in deploys",
+            "comment_count": 0
+        },
+        "author_id": 1884376,
+        "committer_id": 1884376
+    },
+    {
+        "pull_request_id": 4414588963,
+        "commit_id": "a3ad11a64e842a512e629c643ac9b81bf1fbfc15",
+        "commit": {
+            "author": {
+                "name": "Aman Bhatnagar",
+                "date": "2026-09-01T17:20:47Z"
+            },
+            "committer": {
+                "name": "Aman Bhatnagar",
+                "date": "2026-09-01T17:20:47Z"
+            },
+            "message": "refactor(curriculum): add-section-headers-html-role-lecture",
+            "comment_count": 0
+        },
+        "author_id": 322678619,
+        "committer_id": 322678619
+    },
+    {
+        "pull_request_id": 4412850800,
+        "commit_id": "f1fea6c4862366e901216288ce250c342ad63e5d",
+        "commit": {
+            "author": {
+                "name": "Mrugesh Mohapatra",
+                "date": "2026-09-01T13:23:04Z"
+            },
+            "committer": {
+                "name": "Mrugesh Mohapatra",
+                "date": "2026-09-02T02:57:50Z"
+            },
+            "message": "fix(client): pass locale env to the test task",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4412836828,
+        "commit_id": "e9908ccb44bbe0e4bda7b90e26f027e7ce7bfa8c",
+        "commit": {
+            "author": {
+                "name": "Mrugesh Mohapatra",
+                "date": "2026-09-01T12:23:28Z"
+            },
+            "committer": {
+                "name": "Mrugesh Mohapatra",
+                "date": "2026-09-02T02:58:46Z"
+            },
+            "message": "fix(client): report curriculum intros that fall back",
+            "comment_count": 0
+        },
+        "author_id": 263526659,
+        "committer_id": 263526659
+    },
+    {
+        "pull_request_id": 4411873883,
+        "commit_id": "b7110e208d9f4d21914a332afd046afdd23ace9e",
+        "commit": {
+            "author": {
+                "name": "Mrugesh Mohapatra",
+                "date": "2026-09-01T11:49:04Z"
+            },
+            "committer": {
+                "name": "Mrugesh Mohapatra",
+                "date": "2026-09-01T11:52:20Z"
+            },
+            "message": "test(client): freeze clock in dcc archive test",
+            "comment_count": 0
+        },
+        "author_id": 322678619,
+        "committer_id": 322678619
+    },
+    {
+        "pull_request_id": 4411864950,
+        "commit_id": "815466d3c0b3cd203149fc803b05ab0e9c567f14",
+        "commit": {
+            "author": {
+                "name": "Mrugesh Mohapatra",
+                "date": "2026-09-01T11:48:50Z"
+            },
+            "committer": {
+                "name": "Mrugesh Mohapatra",
+                "date": "2026-09-01T11:52:15Z"
+            },
+            "message": "fix(client): fall back to english curriculum intros",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4411864950,
+        "commit_id": "ff95e9e7d95f8dc8d8706b9578d8dfd0ee83fbda",
+        "commit": {
+            "author": {
+                "name": "Mrugesh Mohapatra",
+                "date": "2026-09-01T12:51:03Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "date": "2026-09-01T12:51:03Z"
+            },
+            "message": "Merge branch 'main' into fix/client-english-intro-fallback",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4410628324,
+        "commit_id": "63b822ee26e93b8b2a05a26e7a48a6c90ba3bc44",
+        "commit": {
+            "author": {
+                "name": "cryptotify",
+                "date": "2026-09-01T09:19:25Z"
+            },
+            "committer": {
+                "name": "cryptotify",
+                "date": "2026-09-01T09:19:25Z"
+            },
+            "message": "docs: update reference web index and resources",
+            "comment_count": 0
+        },
+        "author_id": 1884376,
+        "committer_id": 1884376
+    },
+    {
+        "pull_request_id": 4410227697,
+        "commit_id": "e7900dd981d3eadb4a2033b77415dfd2f96a1339",
+        "commit": {
+            "author": {
+                "name": "Mrugesh Mohapatra",
+                "date": "2026-09-01T03:06:18Z"
+            },
+            "committer": {
+                "name": "Mrugesh Mohapatra",
+                "date": "2026-09-01T03:06:18Z"
+            },
+            "message": "feat(gha): enable arabic client deploys",
+            "comment_count": 0
+        },
+        "author_id": 188833117,
+        "committer_id": 188833117
+    },
+    {
+        "pull_request_id": 4408779953,
+        "commit_id": "3c5050101143024379795ea1db72f61e24cbb06f",
+        "commit": {
+            "author": {
+                "name": "gundavarapuindira25-max",
+                "date": "2026-09-01T04:46:01Z"
+            },
+            "committer": {
+                "name": "gundavarapuindira25-max",
+                "date": "2026-09-01T04:46:01Z"
+            },
+            "message": "docs(curriculum): add section headers",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4408779953,
+        "commit_id": "48df90513d9d2797521de3a43e71eb3bbc9f7345",
+        "commit": {
+            "author": {
+                "name": "Indira Gundavarapu",
+                "date": "2026-09-01T04:47:04Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "date": "2026-09-01T04:47:04Z"
+            },
+            "message": "Merge branch 'main' into docs/date-object-section-headers",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4408779953,
+        "commit_id": "8ce2862defc47960579598ecde5d7173959af3be",
+        "commit": {
+            "author": {
+                "name": "gundavarapuindira25-max",
+                "date": "2026-09-04T07:05:30Z"
+            },
+            "committer": {
+                "name": "gundavarapuindira25-max",
+                "date": "2026-09-04T07:05:30Z"
+            },
+            "message": "fix(curriculum): add headers to date lecture",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4408779953,
+        "commit_id": "c72f4797ea5ab038d3e97410efe19ca4b8719557",
+        "commit": {
+            "author": {
+                "name": "gundavarapuindira25-max",
+                "date": "2026-09-04T07:59:03Z"
+            },
+            "committer": {
+                "name": "gundavarapuindira25-max",
+                "date": "2026-09-04T07:59:03Z"
+            },
+            "message": "fix(curriculum): link MDN docs in date lecture",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4408779953,
+        "commit_id": "5796e8b3677edde3c8dc1ea3ca1d676f00d89f83",
+        "commit": {
+            "author": {
+                "name": "Indira Gundavarapu",
+                "date": "2026-09-04T08:02:34Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "date": "2026-09-04T08:02:34Z"
+            },
+            "message": "Merge branch 'main' into docs/date-object-section-headers",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4408779953,
+        "commit_id": "1a4901ff0b6834cd0c9e5a95ca7954a46deb6d3a",
+        "commit": {
+            "author": {
+                "name": "Indira Gundavarapu",
+                "date": "2026-09-04T11:29:24Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "date": "2026-09-04T11:29:24Z"
+            },
+            "message": "Merge branch 'main' into docs/date-object-section-headers",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4408779953,
+        "commit_id": "baef369b6356ec7ae28776733b156ff125ee78b0",
+        "commit": {
+            "author": {
+                "name": "gundavarapuindira25-max",
+                "date": "2026-09-04T11:31:35Z"
+            },
+            "committer": {
+                "name": "gundavarapuindira25-max",
+                "date": "2026-09-04T11:31:35Z"
+            },
+            "message": "fix(curriculum): revert MDN link per review",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4408779953,
+        "commit_id": "5687488c58ecf7504d5421b4b7fad2646c1669df",
+        "commit": {
+            "author": {
+                "name": "gundavarapuindira25-max",
+                "date": "2026-09-04T11:31:50Z"
+            },
+            "committer": {
+                "name": "gundavarapuindira25-max",
+                "date": "2026-09-04T11:31:50Z"
+            },
+            "message": "Merge branch 'main' into docs/date-object-section-headers",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4405631022,
+        "commit_id": "9ada6ca82f81ea964b651c6d8a7bb0138bef3a33",
+        "commit": {
+            "author": {
+                "name": "Agba Emmanuel",
+                "date": "2026-08-31T19:33:38Z"
+            },
+            "committer": {
+                "name": "Agba Emmanuel",
+                "date": "2026-08-31T19:33:38Z"
+            },
+            "message": "feat: update section headers for CSS transform property",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4405631022,
+        "commit_id": "888c742b9699cc23ca1e1af426ba6e65cd36c0d9",
+        "commit": {
+            "author": {
+                "name": "Agba Emmanuel",
+                "date": "2026-09-02T12:42:52Z"
+            },
+            "committer": {
+                "name": "Agba Emmanuel",
+                "date": "2026-09-02T12:42:52Z"
+            },
+            "message": "mod: update sentence case",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4405631022,
+        "commit_id": "c66fb623d33dac5709d6282266c0fc63760885f8",
+        "commit": {
+            "author": {
+                "name": "Agba Emmanuel",
+                "date": "2026-09-02T17:14:48Z"
+            },
+            "committer": {
+                "name": "Agba Emmanuel",
+                "date": "2026-09-02T17:14:48Z"
+            },
+            "message": "mod: update section headers",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4405631022,
+        "commit_id": "749299b66b5ba253df983b5b5aff056c190f381a",
+        "commit": {
+            "author": {
+                "name": "Agba Emmanuel",
+                "date": "2026-09-05T09:48:10Z"
+            },
+            "committer": {
+                "name": "Agba Emmanuel",
+                "date": "2026-09-05T09:48:10Z"
+            },
+            "message": "mod: update sentence case",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4405424823,
+        "commit_id": "a858f8d87308260e696d3ab0387c8d2fb731c2dd",
+        "commit": {
+            "author": {
+                "name": "pranjal6890",
+                "date": "2026-08-31T18:40:09Z"
+            },
+            "committer": {
+                "name": "pranjal6890",
+                "date": "2026-08-31T18:40:09Z"
+            },
+            "message": "fix(curriculum): wrap F2 in kbd element in task 14 (#69808)",
+            "comment_count": 0
+        },
+        "author_id": 1884376,
+        "committer_id": 1884376
+    },
+    {
+        "pull_request_id": 4404946472,
+        "commit_id": "4efa19e34964cff075638edcf78afe3399ad6b78",
+        "commit": {
+            "author": {
+                "name": "Zilin",
+                "date": "2026-08-31T17:55:23Z"
+            },
+            "committer": {
+                "name": "Zilin",
+                "date": "2026-08-31T17:55:23Z"
+            },
+            "message": "fix: mark F2 key in learn-how-to-use-conditionals with <kbd> element",
+            "comment_count": 0
+        },
+        "author_id": 263526659,
+        "committer_id": 263526659
+    },
+    {
+        "pull_request_id": 4404946472,
+        "commit_id": "42840786670a062fed9d388c6f1fd93fb5e66a38",
+        "commit": {
+            "author": {
+                "name": "Zilin",
+                "date": "2026-08-31T17:55:23Z"
+            },
+            "committer": {
+                "name": "Zilin",
+                "date": "2026-08-31T19:50:51Z"
+            },
+            "message": "fix: mark F2 key in learn-how-to-use-conditionals with <kbd> element",
+            "comment_count": 0
+        },
+        "author_id": 263526659,
+        "committer_id": 263526659
+    },
+    {
+        "pull_request_id": 4404704496,
+        "commit_id": "6d8a3a39773af1135c65264dad2e150aab33a8b7",
+        "commit": {
+            "author": {
+                "name": "Ilenia M.",
+                "date": "2026-08-31T17:18:32Z"
+            },
+            "committer": {
+                "name": "Ilenia M.",
+                "date": "2026-08-31T17:25:51Z"
+            },
+            "message": "fix(curriculum): isolate Euler 13 test fixtures",
+            "comment_count": 0
+        },
+        "author_id": 1884376,
+        "committer_id": 1884376
+    },
+    {
+        "pull_request_id": 4403958766,
+        "commit_id": "3f08242bb4866d2282fbf950536e45d0ead8017b",
+        "commit": {
+            "author": {
+                "name": "Orji Emmanuel",
+                "date": "2026-08-31T15:47:00Z"
+            },
+            "committer": {
+                "name": "Orji Emmanuel",
+                "date": "2026-08-31T15:53:33Z"
+            },
+            "message": "fix(curriculum): add section headers to flex properties lecture\n\nAdded ## Title Case headers to break up the --interactive-- body into\nlogical sections (flex-wrap, flex-flow, justify-content, align-items,\nalign-self), following the convention established in the sort method\nlecture. No prose changes, --questions-- untouched.\n\nCloses #69296\n\nSigned-off-by: TAOFEEK LAWAL <130085573+TEE0207@users.noreply.github.com>",
+            "comment_count": 0
+        },
+        "author_id": 188833117,
+        "committer_id": 188833117
+    },
+    {
+        "pull_request_id": 4403956972,
+        "commit_id": "de98a56891425375f6bc5a847ab469f7ce597cad",
+        "commit": {
+            "author": {
+                "name": "Aman Bhatnagar",
+                "date": "2026-08-31T15:48:55Z"
+            },
+            "committer": {
+                "name": "Aman Bhatnagar",
+                "date": "2026-08-31T15:48:55Z"
+            },
+            "message": "refactor(curriculum): add section headers aria-expanded attribute lecture",
+            "comment_count": 0
+        },
+        "author_id": 1884376,
+        "committer_id": 1884376
+    },
+    {
+        "pull_request_id": 4403956972,
+        "commit_id": "033542638712a4ae1e05ccfca77def116d326145",
+        "commit": {
+            "author": {
+                "name": "Aman Bhatnagar",
+                "date": "2026-08-31T15:55:52Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "date": "2026-08-31T15:55:52Z"
+            },
+            "message": "Potential fix for pull request finding\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\nSigned-off-by: Aman Bhatnagar <amanviteee@gmail.com>",
+            "comment_count": 0
+        },
+        "author_id": 1884376,
+        "committer_id": 1884376
+    },
+    {
+        "pull_request_id": 4403956972,
+        "commit_id": "85ffada5a78db44bdfd7891b54e3127fd9f16645",
+        "commit": {
+            "author": {
+                "name": "Aman Bhatnagar",
+                "date": "2026-09-04T13:06:26Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "date": "2026-09-04T13:06:26Z"
+            },
+            "message": "Update curriculum/challenges/english/blocks/lecture-understanding-aria-expanded-aria-live-and-common-aria-states/672a54ce90c19e9038f481d7.md\n\nCo-authored-by: majestic-owl448 <26656284+majestic-owl448@users.noreply.github.com>\nSigned-off-by: Aman Bhatnagar <amanviteee@gmail.com>",
+            "comment_count": 0
+        },
+        "author_id": 1884376,
+        "committer_id": 1884376
+    },
+    {
+        "pull_request_id": 4403956972,
+        "commit_id": "25a1addf9059af19d8735ac3a8e1c06c6d0a5820",
+        "commit": {
+            "author": {
+                "name": "Aman Bhatnagar",
+                "date": "2026-09-04T13:06:46Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "date": "2026-09-04T13:06:46Z"
+            },
+            "message": "Update curriculum/challenges/english/blocks/lecture-understanding-aria-expanded-aria-live-and-common-aria-states/672a54ce90c19e9038f481d7.md\n\nCo-authored-by: majestic-owl448 <26656284+majestic-owl448@users.noreply.github.com>\nSigned-off-by: Aman Bhatnagar <amanviteee@gmail.com>",
+            "comment_count": 0
+        },
+        "author_id": 1884376,
+        "committer_id": 1884376
+    },
+    {
+        "pull_request_id": 4403956972,
+        "commit_id": "4aa2376c486d7cb7856915896da51886194a2ccc",
+        "commit": {
+            "author": {
+                "name": "Aman Bhatnagar",
+                "date": "2026-09-04T13:06:58Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "date": "2026-09-04T13:06:58Z"
+            },
+            "message": "Update curriculum/challenges/english/blocks/lecture-understanding-aria-expanded-aria-live-and-common-aria-states/672a54ce90c19e9038f481d7.md\n\nCo-authored-by: majestic-owl448 <26656284+majestic-owl448@users.noreply.github.com>\nSigned-off-by: Aman Bhatnagar <amanviteee@gmail.com>",
+            "comment_count": 0
+        },
+        "author_id": 1884376,
+        "committer_id": 1884376
+    },
+    {
+        "pull_request_id": 4403521389,
+        "commit_id": "4022b28405f49eaa55906d1292e881844a35a9a2",
+        "commit": {
+            "author": {
+                "name": "Tayyba Fatima",
+                "date": "2026-08-28T19:45:38Z"
+            },
+            "committer": {
+                "name": "Tayyba Fatima",
+                "date": "2026-08-28T19:45:38Z"
+            },
+            "message": "Clarify AI-assisted code expectations in PR template",
+            "comment_count": 0
+        },
+        "author_id": 322678619,
+        "committer_id": 322678619
+    },
+    {
+        "pull_request_id": 4403521389,
+        "commit_id": "7cd1cfd4a5e04f1b37a75cf5bf32471d82406be7",
+        "commit": {
+            "author": {
+                "name": "Tayyba Fatima",
+                "date": "2026-08-31T14:54:44Z"
+            },
+            "committer": {
+                "name": "Tayyba Fatima",
+                "date": "2026-08-31T14:54:44Z"
+            },
+            "message": "fix: remove unclear multi-column terminology from CSS Grid lecture\nCloses #69816",
+            "comment_count": 0
+        },
+        "author_id": 322678619,
+        "committer_id": 322678619
+    },
+    {
+        "pull_request_id": 4402850547,
+        "commit_id": "14b876010f2d5938949519d7fb290f15d3402001",
+        "commit": {
+            "author": {
+                "name": "Archita",
+                "date": "2026-08-31T13:32:37Z"
+            },
+            "committer": {
+                "name": "Archita",
+                "date": "2026-08-31T13:32:37Z"
+            },
+            "message": "fix(curriculum): remove undefined multi-column-layout term from CSS Grid lecture",
+            "comment_count": 0
+        },
+        "author_id": 1884376,
+        "committer_id": 1884376
+    },
+    {
+        "pull_request_id": 4401142192,
+        "commit_id": "50b5c6a2b610127eeb8e92de2e9a55a95e8e33b8",
+        "commit": {
+            "author": {
+                "name": "Ilenia M.",
+                "date": "2026-08-31T09:29:24Z"
+            },
+            "committer": {
+                "name": "Ilenia M.",
+                "date": "2026-08-31T09:29:24Z"
+            },
+            "message": "fix(tools): generate projects by block type",
+            "comment_count": 0
+        },
+        "author_id": 188833117,
+        "committer_id": 188833117
+    },
+    {
+        "pull_request_id": 4401142192,
+        "commit_id": "e0872dcce6ca595037c00bc7f24630dd55c3ea22",
+        "commit": {
+            "author": {
+                "name": "Ilenia M.",
+                "date": "2026-09-02T11:19:50Z"
+            },
+            "committer": {
+                "name": "Ilenia M.",
+                "date": "2026-09-02T11:19:50Z"
+            },
+            "message": "feat(tools): scaffold project content types",
+            "comment_count": 0
+        },
+        "author_id": 188833117,
+        "committer_id": 188833117
+    },
+    {
+        "pull_request_id": 4401008483,
+        "commit_id": "89ed43cc2095621492bbc1d4e6723540d8589678",
+        "commit": {
+            "author": {
+                "name": "Ilenia M.",
+                "date": "2026-08-31T09:28:17Z"
+            },
+            "committer": {
+                "name": "Ilenia M.",
+                "date": "2026-08-31T09:28:17Z"
+            },
+            "message": "fix(curriculum): complete Countup workshop",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4400829373,
+        "commit_id": "a9585a05d7dc77e3f3e81e28b4f9dd6eb6dc86d0",
+        "commit": {
+            "author": {
+                "name": "Deepanshu4m",
+                "date": "2026-08-31T08:59:14Z"
+            },
+            "committer": {
+                "name": "Deepanshu4m",
+                "date": "2026-08-31T08:59:14Z"
+            },
+            "message": "feat(client): download solution as zip file instead of txt",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4400829373,
+        "commit_id": "065083fcb84007e2994704e82bc29796849b7d85",
+        "commit": {
+            "author": {
+                "name": "Deepanshu4m",
+                "date": "2026-08-31T09:01:03Z"
+            },
+            "committer": {
+                "name": "Deepanshu4m",
+                "date": "2026-08-31T09:01:03Z"
+            },
+            "message": "chore: add jszip to lockfile",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4400317291,
+        "commit_id": "b4566a353634a26b038974767a8cda10e8ec16ba",
+        "commit": {
+            "author": {
+                "name": "Ilenia M.",
+                "date": "2026-08-31T07:44:34Z"
+            },
+            "committer": {
+                "name": "Ilenia M.",
+                "date": "2026-08-31T07:44:34Z"
+            },
+            "message": "fix(curriculum): preserve donation form names",
+            "comment_count": 0
+        },
+        "author_id": 188833117,
+        "committer_id": 188833117
+    },
+    {
+        "pull_request_id": 4400317291,
+        "commit_id": "052f6ecab45fb65e3ebf03ae4147e40e49c7fcbe",
+        "commit": {
+            "author": {
+                "name": "Ilenia M.",
+                "date": "2026-08-31T07:46:29Z"
+            },
+            "committer": {
+                "name": "Ilenia M.",
+                "date": "2026-08-31T07:46:29Z"
+            },
+            "message": "test(curriculum): check donation form submit input",
+            "comment_count": 0
+        },
+        "author_id": 188833117,
+        "committer_id": 188833117
+    },
+    {
+        "pull_request_id": 4400317291,
+        "commit_id": "80761790832553dd6f4db9fd3596fc43549eeabf",
+        "commit": {
+            "author": {
+                "name": "Ilenia M.",
+                "date": "2026-08-31T10:36:06Z"
+            },
+            "committer": {
+                "name": "Ilenia M.",
+                "date": "2026-08-31T10:36:06Z"
+            },
+            "message": "test(curriculum): check donation input positions",
+            "comment_count": 0
+        },
+        "author_id": 188833117,
+        "committer_id": 188833117
+    },
+    {
+        "pull_request_id": 4398790683,
+        "commit_id": "0a3d9c11fde4e269e2a8ad114389cb04a134feba",
+        "commit": {
+            "author": {
+                "name": "Hariprajwal",
+                "date": "2026-08-31T02:51:54Z"
+            },
+            "committer": {
+                "name": "Hariprajwal",
+                "date": "2026-08-31T02:51:54Z"
+            },
+            "message": "fix(curriculum): update non-standard spelling to American English in JavaScript challenge hints",
+            "comment_count": 0
+        },
+        "author_id": 1884376,
+        "committer_id": 1884376
+    },
+    {
+        "pull_request_id": 4397879295,
+        "commit_id": "5661a9998eac5791d8bf6890fb2fd936105aa773",
+        "commit": {
+            "author": {
+                "name": "Vishal Kumar",
+                "date": "2026-08-30T22:44:50Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "date": "2026-08-30T22:44:50Z"
+            },
+            "message": "Update README.md\n\nSigned-off-by: Vishal Kumar <95529174+Vishaldubey2210@users.noreply.github.com>",
+            "comment_count": 0
+        },
+        "author_id": 1884376,
+        "committer_id": 1884376
+    },
+    {
+        "pull_request_id": 4397767122,
+        "commit_id": "d5ed261e33e3f8ae90bc5dff03b9701e2e326146",
+        "commit": {
+            "author": {
+                "name": "Supravisor",
+                "date": "2026-08-30T22:06:55Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "date": "2026-08-30T22:06:55Z"
+            },
+            "message": "fix(curriculum): replace ampersand in Review React Basics",
+            "comment_count": 0
+        },
+        "author_id": 1884376,
+        "committer_id": 1884376
+    },
+    {
+        "pull_request_id": 4397481911,
+        "commit_id": "3327ec65dd52552081659b4de6d11ae01c00c651",
+        "commit": {
+            "author": {
+                "name": "Ankur Kataria",
+                "date": "2026-08-30T20:40:31Z"
+            },
+            "committer": {
+                "name": "Ankur Kataria",
+                "date": "2026-08-30T20:40:31Z"
+            },
+            "message": "fix(curriculum): step 41 envelope budget app use valid id selector\n\nTeach '#' + category + ' .input-container' so querySelector targets the\nelement by id. Previously category + ' .input-container' produced invalid\nselectors like 'rent .input-container' causing targetInputContainer to be null.\n\nFixes #69805",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4397481911,
+        "commit_id": "6b0d6fc6bcc0f5f59381950b53ad73e41f64b98e",
+        "commit": {
+            "author": {
+                "name": "Ankur Kataria",
+                "date": "2026-08-30T20:41:34Z"
+            },
+            "committer": {
+                "name": "Ankur Kataria",
+                "date": "2026-08-30T20:41:34Z"
+            },
+            "message": "fix(curriculum): step 42 seed carries correct id selector from step 41\n\nUpdate seed code to '#' + category + ' .input-container' so it matches\nthe valid selector taught in step 41. Update description to say 'keep\nthe #' rather than 'add #', since the # is already present from step 41.\n\nFixes #69805",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4396823448,
+        "commit_id": "09c106d7d5401842ed08be9fda36ae763484123c",
+        "commit": {
+            "author": {
+                "name": "Mohammed Hisham Moizuddin",
+                "date": "2026-08-30T17:26:34Z"
+            },
+            "committer": {
+                "name": "Mohammed Hisham Moizuddin",
+                "date": "2026-08-30T17:26:34Z"
+            },
+            "message": "fix(client): escape console output of JavaScript challenges\n\nThe in-app console renders its contents with dangerouslySetInnerHTML, so\nevery log has to be escaped before it reaches the store. The JavaScript\nbranch of previewChallengeSaga was the only path that skipped this, which\nmeant a learner who correctly logged an HTML entity saw the decoded\ncharacter instead.\n\nCloses #63788",
+            "comment_count": 0
+        },
+        "author_id": 322678619,
+        "committer_id": 322678619
+    },
+    {
+        "pull_request_id": 4395693771,
+        "commit_id": "2cd5b59101cc819f057cd20e8c9f44af5ebc1ada",
+        "commit": {
+            "author": {
+                "name": "MkhalFadel",
+                "date": "2026-08-02T11:18:33Z"
+            },
+            "committer": {
+                "name": "MkhalFadel",
+                "date": "2026-08-02T11:18:33Z"
+            },
+            "message": "fix(curriculum): improve wording in workshop cafe menu step 58",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4395693771,
+        "commit_id": "8ecd5e09524cb1b95a8654e13c45b63352ced20d",
+        "commit": {
+            "author": {
+                "name": "MkhalFadel",
+                "date": "2026-08-02T12:20:50Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "date": "2026-08-02T12:20:50Z"
+            },
+            "message": "Merge branch 'freeCodeCamp:main' into main",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4395693771,
+        "commit_id": "f52ae0d8d1899167027f3213d4bf680e5faaca83",
+        "commit": {
+            "author": {
+                "name": "MkhalFadel",
+                "date": "2026-08-04T13:24:16Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "date": "2026-08-04T13:24:16Z"
+            },
+            "message": "Merge branch 'freeCodeCamp:main' into main",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4395693771,
+        "commit_id": "f2ff7450487595284fd984497e8b0fcc4a644143",
+        "commit": {
+            "author": {
+                "name": "MkhalFadel",
+                "date": "2026-08-04T13:24:16Z"
+            },
+            "committer": {
+                "name": "MkhalFadel",
+                "date": "2026-08-07T19:24:19Z"
+            },
+            "message": "Merge branch 'freeCodeCamp:main' into main",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4395693771,
+        "commit_id": "96ac0475615ea67e88e4141db893d2fc30436d72",
+        "commit": {
+            "author": {
+                "name": "MkhalFadel",
+                "date": "2026-08-08T17:59:15Z"
+            },
+            "committer": {
+                "name": "MkhalFadel",
+                "date": "2026-08-08T17:59:15Z"
+            },
+            "message": "Merge branch 'main' of https://github.com/MkhalFadel/freeCodeCamp",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4395693771,
+        "commit_id": "2f041b1dabe872056db837e189c1f22ca98cbda3",
+        "commit": {
+            "author": {
+                "name": "MkhalFadel",
+                "date": "2026-08-30T11:59:34Z"
+            },
+            "committer": {
+                "name": "MkhalFadel",
+                "date": "2026-08-30T11:59:34Z"
+            },
+            "message": "fix(curriculum): fixed invalid selector usage in steps 41-42",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4395693771,
+        "commit_id": "a394d44719b544a3b2a809f464412a08da0fcbbc",
+        "commit": {
+            "author": {
+                "name": "MkhalFadel",
+                "date": "2026-08-30T12:12:34Z"
+            },
+            "committer": {
+                "name": "MkhalFadel",
+                "date": "2026-08-30T12:12:34Z"
+            },
+            "message": "fix(curriculum): correct editable region marker",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4395693771,
+        "commit_id": "9473727be0ca602023ba8ee483c957284758009c",
+        "commit": {
+            "author": {
+                "name": "MkhalFadel",
+                "date": "2026-09-01T20:13:29Z"
+            },
+            "committer": {
+                "name": "MkhalFadel",
+                "date": "2026-09-01T20:13:29Z"
+            },
+            "message": "fix(curriculum): removed 'rent' option from the  envelope budget dropdown categories",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4395693771,
+        "commit_id": "2e34bff4ffa77c49d84fb44d64a5de354257b67f",
+        "commit": {
+            "author": {
+                "name": "MkhalFadel",
+                "date": "2026-09-01T20:56:59Z"
+            },
+            "committer": {
+                "name": "MkhalFadel",
+                "date": "2026-09-02T20:35:21Z"
+            },
+            "message": "fix(curriculum): apply maintainer suggestions",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4395693771,
+        "commit_id": "414f74b399628c1b53f33a9d1f021bbb89a4e2b0",
+        "commit": {
+            "author": {
+                "name": "MkhalFadel",
+                "date": "2026-09-02T20:37:17Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "date": "2026-09-02T20:37:17Z"
+            },
+            "message": "Merge branch 'main' into fix-envelope-budget-selector",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    },
+    {
+        "pull_request_id": 4395568047,
+        "commit_id": "fb3ed52ef68fc88e8c426be45b79919efcc62231",
+        "commit": {
+            "author": {
+                "name": "Aman Bhatnagar",
+                "date": "2026-08-30T11:20:35Z"
+            },
+            "committer": {
+                "name": "Aman Bhatnagar",
+                "date": "2026-08-30T11:20:35Z"
+            },
+            "message": "refactor(curriculum): add section headers css reset lecture",
+            "comment_count": 0
+        },
+        "author_id": 188833117,
+        "committer_id": 188833117
+    },
+    {
+        "pull_request_id": 4395568047,
+        "commit_id": "6b104a306143f7d7e4da660b3e0c7d5c3ef31783",
+        "commit": {
+            "author": {
+                "name": "Aman Bhatnagar",
+                "date": "2026-08-30T11:24:52Z"
+            },
+            "committer": {
+                "name": "Aman Bhatnagar",
+                "date": "2026-08-30T11:24:52Z"
+            },
+            "message": "refactor(curriculum): updated section headers css reset lecture",
+            "comment_count": 0
+        },
+        "author_id": 188833117,
+        "committer_id": 188833117
+    },
+    {
+        "pull_request_id": 4395568047,
+        "commit_id": "2067d1c27e41232aa000793e47456495e941b875",
+        "commit": {
+            "author": {
+                "name": "Aman Bhatnagar",
+                "date": "2026-09-02T02:38:54Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "date": "2026-09-02T02:38:54Z"
+            },
+            "message": "Update curriculum/challenges/english/blocks/lecture-working-with-css-transforms-overflow-and-filters/672bccdb8f1823d8c60f914c.md\n\nCo-authored-by: majestic-owl448 <26656284+majestic-owl448@users.noreply.github.com>\nSigned-off-by: Aman Bhatnagar <amanviteee@gmail.com>",
+            "comment_count": 0
+        },
+        "author_id": 188833117,
+        "committer_id": 188833117
+    },
+    {
+        "pull_request_id": 4392704556,
+        "commit_id": "00ae7eb662282888d8dee8bba458cb7dfe015a95",
+        "commit": {
+            "author": {
+                "name": "challenge456",
+                "date": "2026-08-29T17:21:16Z"
+            },
+            "committer": {
+                "name": "challenge456",
+                "date": "2026-08-29T17:21:16Z"
+            },
+            "message": "fix: clarify second best laptop challenge",
+            "comment_count": 0
+        },
+        "author_id": 26656284,
+        "committer_id": 26656284
+    }
+]
