@@ -2,36 +2,27 @@
     {
         "user_id": 26656284,
         "username":  "majestic-owl448",
-        "role": "MEMBER",
-        "position": "Frontend Developer",
-        "team": "A"
+        "role": "MEMBER"
     },
     {
         "user_id": 1884376,
         "username":  "raisedadead",
-        "role": "MEMBER",
-        "position": "Backend Developer",
-        "team": "A"
+        "role": "MEMBER"
     },
     {
         "user_id": 188833117,
         "username":  "Aman739-code",
-        "role": "MEMBER",
-        "position": "Backend Developer",
-        "team": "A"
+        "role": "MEMBER"
     },
      {
         "user_id": 322678619,
         "username":  "cryptotify",
-        "role": "MEMBER",
-        "position": "Frontend Developer",
-        "team": "A"
+        "role": "MEMBER"
     },
     {
         "user_id": 263526659,
         "username":  "gundavarapuindira25-max",
-        "role": "MEMBER",
-        "position": "DevOps",
-        "team": "A"
+        "role": "MEMBER"
     }
 ]
+

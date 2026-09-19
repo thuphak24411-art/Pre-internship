@@ -1,0 +1,603 @@
+[
+    {
+        "issue_id":  5367706058,
+        "number":  69917,
+        "title":  "[Bug]:",
+        "creator_id":  26656284,
+        "labels":  [
+                       {
+                           "label_id":  252661769,
+                           "label_name":  "impact:auth-provider",
+                           "description":  "Auth, provider routing, model choice, or SecretRef resolution may break."
+                       },
+                       {
+                           "label_id":  807966675,
+                           "label_name":  "bug",
+                           "description":  "Something isn\u0027t working"
+                       },
+                       {
+                           "label_id":  6294660104,
+                           "label_name":  "bug:crash",
+                           "description":  "Process/app exits unexpectedly or hangs"
+                       }
+                   ],
+        "created_at":  "2026-09-06T21:16:35Z",
+        "closed_at":  null
+    },
+    {
+        "issue_id":  5361606239,
+        "number":  69908,
+        "title":  "fix(curriculum): add headers to responsive web design lecture",
+        "creator_id":  188833117,
+        "labels":  [
+                       {
+                           "label_id":  252661769,
+                           "label_name":  "impact:auth-provider",
+                           "description":  "Auth, provider routing, model choice, or SecretRef resolution may break."
+                       }
+                   ],
+        "created_at":  "2026-09-05T23:28:35Z",
+        "closed_at":  null
+    },
+    {
+        "issue_id":  5359338175,
+        "number":  69904,
+        "title":  "fix(curriculum): add section headers to ARIA roles lecture",
+        "creator_id":  322678619,
+        "labels":  [
+                       {
+                           "label_id":  252661769,
+                           "label_name":  "impact:auth-provider",
+                           "description":  "Auth, provider routing, model choice, or SecretRef resolution may break."
+                       }
+                   ],
+        "created_at":  "2026-09-05T16:34:49Z",
+        "closed_at":  null
+    },
+    {
+        "issue_id":  5359100323,
+        "number":  69903,
+        "title":  "fix(api): harden CSRF route matching and fix false-positive token test",
+        "creator_id":  322678619,
+        "labels":  [
+                       {
+                           "label_id":  802122200,
+                           "label_name":  "platform: api",
+                           "description":  "Server application that needs familiarity with Express, Fastify, MongoDB etc."
+                       }
+                   ],
+        "created_at":  "2026-09-05T15:53:42Z",
+        "closed_at":  null
+    },
+    {
+        "issue_id":  5359025774,
+        "number":  69902,
+        "title":  "CSRF plugin tests contain false-positives and routing bug on /signout",
+        "creator_id":  188833117,
+        "labels":  [
+                       {
+                           "label_id":  802122200,
+                           "label_name":  "platform: api",
+                           "description":  "Server application that needs familiarity with Express, Fastify, MongoDB etc."
+                       },
+                       {
+                           "label_id":  807966675,
+                           "label_name":  "bug",
+                           "description":  "Something isn\u0027t working"
+                       }
+                   ],
+        "created_at":  "2026-09-05T15:41:04Z",
+        "closed_at":  null
+    },
+    {
+        "issue_id":  5358207722,
+        "number":  69901,
+        "title":  "fix(curriculum): freeze RSVP confirmation message on submit",
+        "creator_id":  322678619,
+        "labels":  [
+                       {
+                           "label_id":  252661769,
+                           "label_name":  "impact:auth-provider",
+                           "description":  "Auth, provider routing, model choice, or SecretRef resolution may break."
+                       }
+                   ],
+        "created_at":  "2026-09-05T13:15:48Z",
+        "closed_at":  null
+    },
+    {
+        "issue_id":  5357793555,
+        "number":  69900,
+        "title":  "fix(curriculum): add section header to array method section",
+        "creator_id":  322678619,
+        "labels":  [
+                       {
+                           "label_id":  252661769,
+                           "label_name":  "impact:auth-provider",
+                           "description":  "Auth, provider routing, model choice, or SecretRef resolution may break."
+                       },
+                       {
+                           "label_id":  786320697,
+                           "label_name":  "status: waiting update",
+                           "description":  "Is awaiting update, after feedback or request for changes"
+                       }
+                   ],
+        "created_at":  "2026-09-05T12:01:36Z",
+        "closed_at":  null
+    },
+    {
+        "issue_id":  5357168893,
+        "number":  69898,
+        "title":  "fix(curriculum): check donation input order",
+        "creator_id":  263526659,
+        "labels":  [
+                       {
+                           "label_id":  252661769,
+                           "label_name":  "impact:auth-provider",
+                           "description":  "Auth, provider routing, model choice, or SecretRef resolution may break."
+                       }
+                   ],
+        "created_at":  "2026-09-05T09:58:24Z",
+        "closed_at":  null
+    },
+    {
+        "issue_id":  5356802581,
+        "number":  69897,
+        "title":  "Movie Ticket Booking Calculator tests reject valid print calls and an equivalent condition",
+        "creator_id":  1884376,
+        "labels":  [
+                       {
+                           "label_id":  252661769,
+                           "label_name":  "impact:auth-provider",
+                           "description":  "Auth, provider routing, model choice, or SecretRef resolution may break."
+                       },
+                       {
+                           "label_id":  6294660104,
+                           "label_name":  "bug:crash",
+                           "description":  "Process/app exits unexpectedly or hangs"
+                       },
+                       {
+                           "label_id":  9621717691,
+                           "label_name":  "Naomi\u0027s Sprints",
+                           "description":  "This label is for issues that Naomi is managing through her sprint initiatives on Discord."
+                       }
+                   ],
+        "created_at":  "2026-09-05T08:42:02Z",
+        "closed_at":  null
+    },
+    {
+        "issue_id":  5356756841,
+        "number":  69896,
+        "title":  "fix(curriculum): add section headers to calc() lecture",
+        "creator_id":  188833117,
+        "labels":  [
+                       {
+                           "label_id":  199856930,
+                           "label_name":  "status: waiting review",
+                           "description":  "To be applied to PR\u0027s that are ready for QA, especially when additional review is pending."
+                       },
+                       {
+                           "label_id":  252661769,
+                           "label_name":  "impact:auth-provider",
+                           "description":  "Auth, provider routing, model choice, or SecretRef resolution may break."
+                       },
+                       {
+                           "label_id":  9621717691,
+                           "label_name":  "Naomi\u0027s Sprints",
+                           "description":  "This label is for issues that Naomi is managing through her sprint initiatives on Discord."
+                       }
+                   ],
+        "created_at":  "2026-09-05T08:33:46Z",
+        "closed_at":  null
+    },
+    {
+        "issue_id":  5356363448,
+        "number":  69894,
+        "title":  "fix(client): update homepage meta title",
+        "creator_id":  322678619,
+        "labels":  [
+                       {
+                           "label_id":  199856930,
+                           "label_name":  "status: waiting review",
+                           "description":  "To be applied to PR\u0027s that are ready for QA, especially when additional review is pending."
+                       },
+                       {
+                           "label_id":  802122369,
+                           "label_name":  "platform: learn",
+                           "description":  "UI side of the client application that needs familiarity with React, Gatsby etc."
+                       },
+                       {
+                           "label_id":  1088403396,
+                           "label_name":  "scope: i18n",
+                           "description":  "language translation/internationalization. Often combined with language type label"
+                       },
+                       {
+                           "label_id":  1088631905,
+                           "label_name":  "scope: tools/scripts",
+                           "description":  "Scripts for supporting dev work, generating config and build artifacts, etc."
+                       }
+                   ],
+        "created_at":  "2026-09-05T07:11:58Z",
+        "closed_at":  null
+    },
+    {
+        "issue_id":  5355576384,
+        "number":  69892,
+        "title":  "fix(tests): use exact filename matching in external-curriculum superblock classification",
+        "creator_id":  1884376,
+        "labels":  [
+                       {
+                           "label_id":  802122369,
+                           "label_name":  "platform: learn",
+                           "description":  "UI side of the client application that needs familiarity with React, Gatsby etc."
+                       }
+                   ],
+        "created_at":  "2026-09-05T04:33:34Z",
+        "closed_at":  null
+    },
+    {
+        "issue_id":  5355192549,
+        "number":  69891,
+        "title":  "fix(curriculum): add section headers to class inheritance lecture",
+        "creator_id":  263526659,
+        "labels":  [
+                       {
+                           "label_id":  199856930,
+                           "label_name":  "status: waiting review",
+                           "description":  "To be applied to PR\u0027s that are ready for QA, especially when additional review is pending."
+                       },
+                       {
+                           "label_id":  252661769,
+                           "label_name":  "impact:auth-provider",
+                           "description":  "Auth, provider routing, model choice, or SecretRef resolution may break."
+                       },
+                       {
+                           "label_id":  9621717691,
+                           "label_name":  "Naomi\u0027s Sprints",
+                           "description":  "This label is for issues that Naomi is managing through her sprint initiatives on Discord."
+                       }
+                   ],
+        "created_at":  "2026-09-05T03:11:05Z",
+        "closed_at":  null
+    },
+    {
+        "issue_id":  5350192452,
+        "number":  69878,
+        "title":  "fix(curriculum): add section headers to hsl color model lecture",
+        "creator_id":  322678619,
+        "labels":  [
+                       {
+                           "label_id":  252661769,
+                           "label_name":  "impact:auth-provider",
+                           "description":  "Auth, provider routing, model choice, or SecretRef resolution may break."
+                       },
+                       {
+                           "label_id":  786320697,
+                           "label_name":  "status: waiting update",
+                           "description":  "Is awaiting update, after feedback or request for changes"
+                       },
+                       {
+                           "label_id":  9621717691,
+                           "label_name":  "Naomi\u0027s Sprints",
+                           "description":  "This label is for issues that Naomi is managing through her sprint initiatives on Discord."
+                       }
+                   ],
+        "created_at":  "2026-09-04T15:52:34Z",
+        "closed_at":  null
+    },
+    {
+        "issue_id":  5349951135,
+        "number":  69877,
+        "title":  "[Bug]:",
+        "creator_id":  26656284,
+        "labels":  [
+                       {
+                           "label_id":  807966675,
+                           "label_name":  "bug",
+                           "description":  "Something isn\u0027t working"
+                       },
+                       {
+                           "label_id":  6294660104,
+                           "label_name":  "bug:crash",
+                           "description":  "Process/app exits unexpectedly or hangs"
+                       }
+                   ],
+        "created_at":  "2026-09-04T15:27:05Z",
+        "closed_at":  null
+    },
+    {
+        "issue_id":  5345920385,
+        "number":  69873,
+        "title":  "feat: split python certifications",
+        "creator_id":  26656284,
+        "labels":  [
+                       {
+                           "label_id":  802122369,
+                           "label_name":  "platform: learn",
+                           "description":  "UI side of the client application that needs familiarity with React, Gatsby etc."
+                       },
+                       {
+                           "label_id":  1088403396,
+                           "label_name":  "scope: i18n",
+                           "description":  "language translation/internationalization. Often combined with language type label"
+                       }
+                   ],
+        "created_at":  "2026-09-04T08:21:29Z",
+        "closed_at":  null
+    },
+    {
+        "issue_id":  5345482071,
+        "number":  69871,
+        "title":  "[Bug]:",
+        "creator_id":  322678619,
+        "labels":  [
+                       {
+                           "label_id":  252661769,
+                           "label_name":  "impact:auth-provider",
+                           "description":  "Auth, provider routing, model choice, or SecretRef resolution may break."
+                       },
+                       {
+                           "label_id":  807966675,
+                           "label_name":  "bug",
+                           "description":  "Something isn\u0027t working"
+                       },
+                       {
+                           "label_id":  6294660104,
+                           "label_name":  "bug:crash",
+                           "description":  "Process/app exits unexpectedly or hangs"
+                       }
+                   ],
+        "created_at":  "2026-09-04T07:29:43Z",
+        "closed_at":  null
+    },
+    {
+        "issue_id":  5341646007,
+        "number":  69866,
+        "title":  "fix(curriculum): add missing semicolon in JS Functions Quiz",
+        "creator_id":  188833117,
+        "labels":  [
+                       {
+                           "label_id":  252661769,
+                           "label_name":  "impact:auth-provider",
+                           "description":  "Auth, provider routing, model choice, or SecretRef resolution may break."
+                       }
+                   ],
+        "created_at":  "2026-09-03T21:27:36Z",
+        "closed_at":  null
+    },
+    {
+        "issue_id":  5335438003,
+        "number":  69860,
+        "title":  "test: consolidate certification claim flow",
+        "creator_id":  322678619,
+        "labels":  [
+                       {
+                           "label_id":  802122369,
+                           "label_name":  "platform: learn",
+                           "description":  "UI side of the client application that needs familiarity with React, Gatsby etc."
+                       },
+                       {
+                           "label_id":  1088631905,
+                           "label_name":  "scope: tools/scripts",
+                           "description":  "Scripts for supporting dev work, generating config and build artifacts, etc."
+                       }
+                   ],
+        "created_at":  "2026-09-03T10:32:50Z",
+        "closed_at":  null
+    },
+    {
+        "issue_id":  5334264168,
+        "number":  69858,
+        "title":  "test: consolidate newsletter preference flows",
+        "creator_id":  322678619,
+        "labels":  [
+                       {
+                           "label_id":  199856930,
+                           "label_name":  "status: waiting review",
+                           "description":  "To be applied to PR\u0027s that are ready for QA, especially when additional review is pending."
+                       },
+                       {
+                           "label_id":  802122369,
+                           "label_name":  "platform: learn",
+                           "description":  "UI side of the client application that needs familiarity with React, Gatsby etc."
+                       },
+                       {
+                           "label_id":  1088631905,
+                           "label_name":  "scope: tools/scripts",
+                           "description":  "Scripts for supporting dev work, generating config and build artifacts, etc."
+                       }
+                   ],
+        "created_at":  "2026-09-03T08:33:30Z",
+        "closed_at":  null
+    },
+    {
+        "issue_id":  5334159334,
+        "number":  69857,
+        "title":  "test: consolidate profile settings flows",
+        "creator_id":  26656284,
+        "labels":  [
+                       {
+                           "label_id":  199856930,
+                           "label_name":  "status: waiting review",
+                           "description":  "To be applied to PR\u0027s that are ready for QA, especially when additional review is pending."
+                       },
+                       {
+                           "label_id":  802122369,
+                           "label_name":  "platform: learn",
+                           "description":  "UI side of the client application that needs familiarity with React, Gatsby etc."
+                       },
+                       {
+                           "label_id":  1088631905,
+                           "label_name":  "scope: tools/scripts",
+                           "description":  "Scripts for supporting dev work, generating config and build artifacts, etc."
+                       }
+                   ],
+        "created_at":  "2026-09-03T08:22:58Z",
+        "closed_at":  null
+    },
+    {
+        "issue_id":  5333902553,
+        "number":  69856,
+        "title":  "test(e2e): organize mobile upper jaw interactions",
+        "creator_id":  188833117,
+        "labels":  [
+                       {
+                           "label_id":  199856930,
+                           "label_name":  "status: waiting review",
+                           "description":  "To be applied to PR\u0027s that are ready for QA, especially when additional review is pending."
+                       },
+                       {
+                           "label_id":  1088631905,
+                           "label_name":  "scope: tools/scripts",
+                           "description":  "Scripts for supporting dev work, generating config and build artifacts, etc."
+                       }
+                   ],
+        "created_at":  "2026-09-03T07:55:05Z",
+        "closed_at":  null
+    },
+    {
+        "issue_id":  5330846531,
+        "number":  69853,
+        "title":  "fix(shared): only treat whole-string status codes as reserved usernames",
+        "creator_id":  322678619,
+        "labels":  [
+
+                   ],
+        "created_at":  "2026-09-03T00:50:23Z",
+        "closed_at":  null
+    },
+    {
+        "issue_id":  5330846112,
+        "number":  69852,
+        "title":  "fix(api): ignore prototype-inherited names in getChallengeIdsByBlock",
+        "creator_id":  26656284,
+        "labels":  [
+                       {
+                           "label_id":  802122200,
+                           "label_name":  "platform: api",
+                           "description":  "Server application that needs familiarity with Express, Fastify, MongoDB etc."
+                       }
+                   ],
+        "created_at":  "2026-09-03T00:50:19Z",
+        "closed_at":  null
+    },
+    {
+        "issue_id":  5329040731,
+        "number":  69847,
+        "title":  "\u0027Continue Learning\u0027 Button Bug",
+        "creator_id":  26656284,
+        "labels":  [
+                       {
+                           "label_id":  802122369,
+                           "label_name":  "platform: learn",
+                           "description":  "UI side of the client application that needs familiarity with React, Gatsby etc."
+                       },
+                       {
+                           "label_id":  807966675,
+                           "label_name":  "bug",
+                           "description":  "Something isn\u0027t working"
+                       }
+                   ],
+        "created_at":  "2026-09-02T20:46:05Z",
+        "closed_at":  null
+    },
+    {
+        "issue_id":  5325343534,
+        "number":  69841,
+        "title":  "fix(curriculum): snapshot form data on submit to fix RSVP confirmation message bug",
+        "creator_id":  1884376,
+        "labels":  [
+                       {
+                           "label_id":  199856930,
+                           "label_name":  "status: waiting review",
+                           "description":  "To be applied to PR\u0027s that are ready for QA, especially when additional review is pending."
+                       },
+                       {
+                           "label_id":  252661769,
+                           "label_name":  "impact:auth-provider",
+                           "description":  "Auth, provider routing, model choice, or SecretRef resolution may break."
+                       },
+                       {
+                           "label_id":  9222710785,
+                           "label_name":  "deprioritized",
+                           "description":  "PR reviews are deprioritized; lacks productive input and ignores codebase best practices."
+                       }
+                   ],
+        "created_at":  "2026-09-02T14:38:57Z",
+        "closed_at":  null
+    },
+    {
+        "issue_id":  5323282968,
+        "number":  69839,
+        "title":  "fix(client): correct scrollbar width range check",
+        "creator_id":  1884376,
+        "labels":  [
+                       {
+                           "label_id":  802122369,
+                           "label_name":  "platform: learn",
+                           "description":  "UI side of the client application that needs familiarity with React, Gatsby etc."
+                       }
+                   ],
+        "created_at":  "2026-09-02T11:28:28Z",
+        "closed_at":  null
+    },
+    {
+        "issue_id":  5321727557,
+        "number":  69838,
+        "title":  "feat(curriculum): split Python modules lesson",
+        "creator_id":  188833117,
+        "labels":  [
+                       {
+                           "label_id":  252661769,
+                           "label_name":  "impact:auth-provider",
+                           "description":  "Auth, provider routing, model choice, or SecretRef resolution may break."
+                       }
+                   ],
+        "created_at":  "2026-09-02T08:40:22Z",
+        "closed_at":  null
+    },
+    {
+        "issue_id":  5317703076,
+        "number":  69837,
+        "title":  "Example project in Build an Event RSVP lab allows changes to confirmation message",
+        "creator_id":  188833117,
+        "labels":  [
+                       {
+                           "label_id":  160629925,
+                           "label_name":  "help wanted",
+                           "description":  "Open for all. You do not need permission to work on these."
+                       },
+                       {
+                           "label_id":  252661769,
+                           "label_name":  "impact:auth-provider",
+                           "description":  "Auth, provider routing, model choice, or SecretRef resolution may break."
+                       }
+                   ],
+        "created_at":  "2026-09-01T23:01:46Z",
+        "closed_at":  null
+    },
+    {
+        "issue_id":  5304109608,
+        "number":  69827,
+        "title":  "fix(curriculum): add section headers to CSS transform property",
+        "creator_id":  263526659,
+        "labels":  [
+                       {
+                           "label_id":  252661769,
+                           "label_name":  "impact:auth-provider",
+                           "description":  "Auth, provider routing, model choice, or SecretRef resolution may break."
+                       },
+                       {
+                           "label_id":  786320697,
+                           "label_name":  "status: waiting update",
+                           "description":  "Is awaiting update, after feedback or request for changes"
+                       },
+                       {
+                           "label_id":  9621717691,
+                           "label_name":  "Naomi\u0027s Sprints",
+                           "description":  "This label is for issues that Naomi is managing through her sprint initiatives on Discord."
+                       }
+                   ],
+        "created_at":  "2026-08-31T19:36:40Z",
+        "closed_at":  null
+    }
+]
