@@ -1,0 +1,868 @@
+[
+    {
+        "pr_id": 4392704556,
+        "pr_number": 69803,
+        "author": {
+            "login": "challenge456",
+            "id": 211145828
+        },
+        "created_at": "2026-08-29T17:55:41Z",
+        "merged_at": null,
+        "labels": [
+            {
+                "id": 252661769,
+                "name": "bug"
+            },
+            {
+                "id": 9222710785,
+                "name": "deprioritized"
+            }
+        ],
+        "base": {
+            "repo": {
+                "id": 13840241,
+                "name": "payment-service",
+                "full_name": "payment-service"
+            }
+        },
+        "additions": 4,
+        "deletions": 4
+    },
+    {
+        "pr_id": 4395568047,
+        "pr_number": 69804,
+        "author": {
+            "login": "Aman739-code",
+            "id": 188833117
+        },
+        "created_at": "2026-08-30T11:22:18Z",
+        "merged_at": "2026-09-02T07:03:13Z",
+        "labels": [
+            {
+                "id": 252661769,
+                "name": "bug"
+            },
+            {
+                "id": 786320697,
+                "name": "status: waiting update"
+            },
+            {
+                "id": 9621717691,
+                "name": "Naomi's Sprints"
+            }
+        ],
+        "base": {
+            "repo": {
+                "id": 13840241,
+                "name": "payment-service",
+                "full_name": "payment-service"
+            }
+        },
+        "additions": 12,
+        "deletions": 2
+    },
+    {
+        "pr_id": 4395693771,
+        "pr_number": 69806,
+        "author": {
+            "login": "MkhalFadel",
+            "id": 187800071
+        },
+        "created_at": "2026-08-30T12:01:03Z",
+        "merged_at": "2026-09-03T08:04:59Z",
+        "labels": [
+            {
+                "id": 252661769,
+                "name": "bug"
+            },
+            {
+                "id": 786320697,
+                "name": "status: waiting update"
+            },
+            {
+                "id": 6358603340,
+                "name": "js v9 cert"
+            }
+        ],
+        "base": {
+            "repo": {
+                "id": 28457823,
+                "name": "user-service",
+                "full_name": "user-service"
+            }
+        },
+        "additions": 120,
+        "deletions": 212
+    },
+    {
+        "pr_id": 4396823448,
+        "pr_number": 69807,
+        "author": {
+            "login": "hishammoizuddin",
+            "id": 78191578
+        },
+        "created_at": "2026-08-30T17:27:12Z",
+        "merged_at": null,
+        "labels": [
+            {
+                "id": 802122369,
+                "name": "platform: learn"
+            },
+            {
+                "id": 9222710785,
+                "name": "deprioritized"
+            }
+        ],
+        "base": {
+            "repo": {
+                "id": 36910395,
+                "name": "notification-service",
+                "full_name": "notification-service"
+            }
+        },
+        "additions": 40,
+        "deletions": 1
+    },
+    {
+        "pr_id": 4397481911,
+        "pr_number": 69809,
+        "author": {
+            "login": "Ankur-Kataria",
+            "id": 62174572
+        },
+        "created_at": "2026-08-30T20:41:55Z",
+        "merged_at": null,
+        "labels": [
+            {
+                "id": 252661769,
+                "name": "bug"
+            },
+            {
+                "id": 9222710785,
+                "name": "deprioritized"
+            }
+        ],
+        "base": {
+            "repo": {
+                "id": 36910395,
+                "name": "notification-service",
+                "full_name": "notification-service"
+            }
+        },
+        "additions": 7,
+        "deletions": 7
+    },
+    {
+        "pr_id": 4397767122,
+        "pr_number": 69810,
+        "author": {
+            "login": "Supravisor",
+            "id": 153783117
+        },
+        "created_at": "2026-08-30T22:09:30Z",
+        "merged_at": "2026-08-31T02:19:53Z",
+        "labels": [
+            {
+                "id": 199856930,
+                "name": "status: waiting review"
+            },
+            {
+                "id": 252661769,
+                "name": "bug"
+            }
+        ],
+        "base": {
+            "repo": {
+                "id": 32658394,
+                "name": "order-service",
+                "full_name": "order-service"
+            }
+        },
+        "additions": 1,
+        "deletions": 1
+    },
+    {
+        "pr_id": 4397879295,
+        "pr_number": 69811,
+        "author": {
+            "login": "Vishaldubey2210",
+            "id": 95529174
+        },
+        "created_at": "2026-08-30T22:45:37Z",
+        "merged_at": null,
+        "labels": [
+            {
+                "id": 9222710785,
+                "name": "deprioritized"
+            }
+        ],
+        "base": {
+            "repo": {
+                "id": 32658394,
+                "name": "order-service",
+                "full_name": "order-service"
+            }
+        },
+        "additions": 2,
+        "deletions": 0
+    },
+    {
+        "pr_id": 4398790683,
+        "pr_number": 69814,
+        "author": {
+            "login": "Hariprajwal",
+            "id": 171154841
+        },
+        "created_at": "2026-08-31T02:54:23Z",
+        "merged_at": null,
+        "labels": [
+            {
+                "id": 252661769,
+                "name": "bug"
+            },
+            {
+                "id": 9222710785,
+                "name": "deprioritized"
+            }
+        ],
+        "base": {
+            "repo": {
+                "id": 36910395,
+                "name": "notification-service",
+                "full_name": "notification-service"
+            }
+        },
+        "additions": 9,
+        "deletions": 9
+    },
+    {
+        "pr_id": 4400317291,
+        "pr_number": 69815,
+        "author": {
+            "login": "majestic-owl448",
+            "id": 26656284
+        },
+        "created_at": "2026-08-31T07:50:46Z",
+        "merged_at": "2026-08-31T11:07:23Z",
+        "labels": [
+            {
+                "id": 199856930,
+                "name": "status: waiting review"
+            },
+            {
+                "id": 252661769,
+                "name": "bug"
+            }
+        ],
+        "base": {
+            "repo": {
+                "id": 39225141,
+                "name": "search-service",
+                "full_name": "search-service"
+            }
+        },
+        "additions": 30,
+        "deletions": 0
+    },
+    {
+        "pr_id": 4400829373,
+        "pr_number": 69817,
+        "author": {
+            "login": "Deepanshu4m",
+            "id": 155090714
+        },
+        "created_at": "2026-08-31T09:04:36Z",
+        "merged_at": null,
+        "labels": [
+            {
+                "id": 802122369,
+                "name": "platform: learn"
+            }
+        ],
+        "base": {
+            "repo": {
+                "id": 39225141,
+                "name": "search-service",
+                "full_name": "search-service"
+            }
+        },
+        "additions": 60,
+        "deletions": 43
+    },
+    {
+        "pr_id": 4401008483,
+        "pr_number": 69818,
+        "author": {
+            "login": "majestic-owl448",
+            "id": 26656284
+        },
+        "created_at": "2026-08-31T09:29:27Z",
+        "merged_at": "2026-08-31T10:05:42Z",
+        "labels": [
+            {
+                "id": 199856930,
+                "name": "status: waiting review"
+            },
+            {
+                "id": 252661769,
+                "name": "bug"
+            },
+            {
+                "id": 6358603340,
+                "name": "js v9 cert"
+            }
+        ],
+        "base": {
+            "repo": {
+                "id": 13840241,
+                "name": "payment-service",
+                "full_name": "payment-service"
+            }
+        },
+        "additions": 2,
+        "deletions": 0
+    },
+    {
+        "pr_id": 4401142192,
+        "pr_number": 69819,
+        "author": {
+            "login": "majestic-owl448",
+            "id": 26656284
+        },
+        "created_at": "2026-08-31T09:47:15Z",
+        "merged_at": "2026-09-04T15:39:54Z",
+        "labels": [
+            {
+                "id": 199856930,
+                "name": "status: waiting review"
+            },
+            {
+                "id": 1088631905,
+                "name": "scope: tools/scripts"
+            }
+        ],
+        "base": {
+            "repo": {
+                "id": 13840241,
+                "name": "payment-service",
+                "full_name": "payment-service"
+            }
+        },
+        "additions": 1017,
+        "deletions": 112
+    },
+    {
+        "pr_id": 4402850547,
+        "pr_number": 69820,
+        "author": {
+            "login": "Archita-kale",
+            "id": 183984874
+        },
+        "created_at": "2026-08-31T13:36:59Z",
+        "merged_at": "2026-08-31T22:02:28Z",
+        "labels": [
+            {
+                "id": 252661769,
+                "name": "bug"
+            }
+        ],
+        "base": {
+            "repo": {
+                "id": 13840241,
+                "name": "payment-service",
+                "full_name": "payment-service"
+            }
+        },
+        "additions": 1,
+        "deletions": 1
+    },
+    {
+        "pr_id": 4403521389,
+        "pr_number": 69821,
+        "author": {
+            "login": "tayybafatima-08",
+            "id": 246828237
+        },
+        "created_at": "2026-08-31T14:56:57Z",
+        "merged_at": null,
+        "labels": [
+            {
+                "id": 252661769,
+                "name": "bug"
+            },
+            {
+                "id": 1088631905,
+                "name": "scope: tools/scripts"
+            }
+        ],
+        "base": {
+            "repo": {
+                "id": 32658394,
+                "name": "order-service",
+                "full_name": "order-service"
+            }
+        },
+        "additions": 2,
+        "deletions": 1
+    },
+    {
+        "pr_id": 4403956972,
+        "pr_number": 69822,
+        "author": {
+            "login": "Aman739-code",
+            "id": 188833117
+        },
+        "created_at": "2026-08-31T15:50:19Z",
+        "merged_at": "2026-09-04T15:38:35Z",
+        "labels": [
+            {
+                "id": 199856930,
+                "name": "status: waiting review"
+            },
+            {
+                "id": 252661769,
+                "name": "bug"
+            },
+            {
+                "id": 9621717691,
+                "name": "Naomi's Sprints"
+            }
+        ],
+        "base": {
+            "repo": {
+                "id": 32658394,
+                "name": "order-service",
+                "full_name": "order-service"
+            }
+        },
+        "additions": 15,
+        "deletions": 1
+    },
+    {
+        "pr_id": 4403958766,
+        "pr_number": 69823,
+        "author": {
+            "login": "TEE0207",
+            "id": 185694224
+        },
+        "created_at": "2026-08-31T15:50:34Z",
+        "merged_at": "2026-09-01T19:00:45Z",
+        "labels": [
+            {
+                "id": 199856930,
+                "name": "status: waiting review"
+            },
+            {
+                "id": 252661769,
+                "name": "bug"
+            },
+            {
+                "id": 9621717691,
+                "name": "Naomi's Sprints"
+            }
+        ],
+        "base": {
+            "repo": {
+                "id": 28457823,
+                "name": "user-service",
+                "full_name": "user-service"
+            }
+        },
+        "additions": 10,
+        "deletions": 0
+    },
+    {
+        "pr_id": 4404704496,
+        "pr_number": 69824,
+        "author": {
+            "login": "majestic-owl448",
+            "id": 26656284
+        },
+        "created_at": "2026-08-31T17:27:41Z",
+        "merged_at": "2026-09-02T09:47:26Z",
+        "labels": [
+            {
+                "id": 199856930,
+                "name": "status: waiting review"
+            },
+            {
+                "id": 252661769,
+                "name": "bug"
+            }
+        ],
+        "base": {
+            "repo": {
+                "id": 28457823,
+                "name": "user-service",
+                "full_name": "user-service"
+            }
+        },
+        "additions": 13,
+        "deletions": 6
+    },
+    {
+        "pr_id": 4404946472,
+        "pr_number": 69825,
+        "author": {
+            "login": "zxlinw",
+            "id": 143037047
+        },
+        "created_at": "2026-08-31T18:01:13Z",
+        "merged_at": "2026-08-31T22:21:57Z",
+        "labels": [
+            {
+                "id": 199856930,
+                "name": "status: waiting review"
+            },
+            {
+                "id": 252661769,
+                "name": "bug"
+            }
+        ],
+        "base": {
+            "repo": {
+                "id": 36910395,
+                "name": "notification-service",
+                "full_name": "notification-service"
+            }
+        },
+        "additions": 1,
+        "deletions": 1
+    },
+    {
+        "pr_id": 4405424823,
+        "pr_number": 69826,
+        "author": {
+            "login": "pranjal6890",
+            "id": 238221387
+        },
+        "created_at": "2026-08-31T19:08:04Z",
+        "merged_at": null,
+        "labels": [
+            {
+                "id": 199856930,
+                "name": "status: waiting review"
+            },
+            {
+                "id": 252661769,
+                "name": "bug"
+            }
+        ],
+        "base": {
+            "repo": {
+                "id": 36910395,
+                "name": "notification-service",
+                "full_name": "notification-service"
+            }
+        },
+        "additions": 1,
+        "deletions": 1
+    },
+    {
+        "pr_id": 4405631022,
+        "pr_number": 69827,
+        "author": {
+            "login": "tracemycodes",
+            "id": 81056273
+        },
+        "created_at": "2026-08-31T19:36:40Z",
+        "merged_at": null,
+        "labels": [
+            {
+                "id": 252661769,
+                "name": "bug"
+            },
+            {
+                "id": 786320697,
+                "name": "status: waiting update"
+            },
+            {
+                "id": 9621717691,
+                "name": "Naomi's Sprints"
+            }
+        ],
+        "base": {
+            "repo": {
+                "id": 39225141,
+                "name": "search-service",
+                "full_name": "search-service"
+            }
+        },
+        "additions": 10,
+        "deletions": 0
+    },
+    {
+        "pr_id": 4408779953,
+        "pr_number": 69828,
+        "author": {
+            "login": "gundavarapuindira25-max",
+            "id": 263526659
+        },
+        "created_at": "2026-09-01T04:37:43Z",
+        "merged_at": "2026-09-04T17:19:23Z",
+        "labels": [
+            {
+                "id": 199856930,
+                "name": "status: waiting review"
+            },
+            {
+                "id": 252661769,
+                "name": "bug"
+            },
+            {
+                "id": 9621717691,
+                "name": "Naomi's Sprints"
+            }
+        ],
+        "base": {
+            "repo": {
+                "id": 39225141,
+                "name": "search-service",
+                "full_name": "search-service"
+            }
+        },
+        "additions": 12,
+        "deletions": 0
+    },
+    {
+        "pr_id": 4410227697,
+        "pr_number": 69829,
+        "author": {
+            "login": "raisedadead",
+            "id": 1884376
+        },
+        "created_at": "2026-09-01T08:27:48Z",
+        "merged_at": "2026-09-01T08:37:01Z",
+        "labels": [
+            {
+                "id": 1088631905,
+                "name": "scope: tools/scripts"
+            }
+        ],
+        "base": {
+            "repo": {
+                "id": 32658394,
+                "name": "order-service",
+                "full_name": "order-service"
+            }
+        },
+        "additions": 3,
+        "deletions": 1
+    },
+    {
+        "pr_id": 4410628324,
+        "pr_number": 69830,
+        "author": {
+            "login": "cryptotify",
+            "id": 322678619
+        },
+        "created_at": "2026-09-01T09:19:27Z",
+        "merged_at": null,
+        "labels": [
+            {
+                "id": 9222710785,
+                "name": "deprioritized"
+            }
+        ],
+        "base": {
+            "repo": {
+                "id": 32658394,
+                "name": "order-service",
+                "full_name": "order-service"
+            }
+        },
+        "additions": 29,
+        "deletions": 0
+    },
+    {
+        "pr_id": 4411864950,
+        "pr_number": 69831,
+        "author": {
+            "login": "raisedadead",
+            "id": 1884376
+        },
+        "created_at": "2026-09-01T11:59:45Z",
+        "merged_at": "2026-09-01T13:26:37Z",
+        "labels": [
+            {
+                "id": 802122369,
+                "name": "platform: learn"
+            }
+        ],
+        "base": {
+            "repo": {
+                "id": 28457823,
+                "name": "user-service",
+                "full_name": "user-service"
+            }
+        },
+        "additions": 181,
+        "deletions": 4
+    },
+    {
+        "pr_id": 4411873883,
+        "pr_number": 69832,
+        "author": {
+            "login": "raisedadead",
+            "id": 1884376
+        },
+        "created_at": "2026-09-01T12:00:56Z",
+        "merged_at": "2026-09-01T12:36:06Z",
+        "labels": [
+            {
+                "id": 802122369,
+                "name": "platform: learn"
+            }
+        ],
+        "base": {
+            "repo": {
+                "id": 36910395,
+                "name": "notification-service",
+                "full_name": "notification-service"
+            }
+        },
+        "additions": 19,
+        "deletions": 8
+    },
+    {
+        "pr_id": 4412836828,
+        "pr_number": 69833,
+        "author": {
+            "login": "raisedadead",
+            "id": 1884376
+        },
+        "created_at": "2026-09-01T13:53:11Z",
+        "merged_at": null,
+        "labels": [
+            {
+                "id": 199856930,
+                "name": "status: waiting review"
+            },
+            {
+                "id": 802122369,
+                "name": "platform: learn"
+            }
+        ],
+        "base": {
+            "repo": {
+                "id": 28457823,
+                "name": "user-service",
+                "full_name": "user-service"
+            }
+        },
+        "additions": 197,
+        "deletions": 2
+    },
+    {
+        "pr_id": 4412850800,
+        "pr_number": 69834,
+        "author": {
+            "login": "raisedadead",
+            "id": 1884376
+        },
+        "created_at": "2026-09-01T13:54:34Z",
+        "merged_at": null,
+        "labels": [
+            {
+                "id": 199856930,
+                "name": "status: waiting review"
+            },
+            {
+                "id": 802122369,
+                "name": "platform: learn"
+            }
+        ],
+        "base": {
+            "repo": {
+                "id": 32658394,
+                "name": "order-service",
+                "full_name": "order-service"
+            }
+        },
+        "additions": 3,
+        "deletions": 0
+    },
+    {
+        "pr_id": 4414588963,
+        "pr_number": 69835,
+        "author": {
+            "login": "Aman739-code",
+            "id": 188833117
+        },
+        "created_at": "2026-09-01T17:22:10Z",
+        "merged_at": "2026-09-01T19:00:23Z",
+        "labels": [
+            {
+                "id": 199856930,
+                "name": "status: waiting review"
+            },
+            {
+                "id": 252661769,
+                "name": "bug"
+            },
+            {
+                "id": 9621717691,
+                "name": "Naomi's Sprints"
+            }
+        ],
+        "base": {
+            "repo": {
+                "id": 36910395,
+                "name": "notification-service",
+                "full_name": "notification-service"
+            }
+        },
+        "additions": 10,
+        "deletions": 0
+    },
+    {
+        "pr_id": 4414831124,
+        "pr_number": 69836,
+        "author": {
+            "login": "raisedadead",
+            "id": 1884376
+        },
+        "created_at": "2026-09-01T17:54:24Z",
+        "merged_at": "2026-09-02T02:57:26Z",
+        "labels": [
+            {
+                "id": 1088631905,
+                "name": "scope: tools/scripts"
+            }
+        ],
+        "base": {
+            "repo": {
+                "id": 36910395,
+                "name": "notification-service",
+                "full_name": "notification-service"
+            }
+        },
+        "additions": 22,
+        "deletions": 8
+    },
+    {
+        "pr_id": 4420350354,
+        "pr_number": 69838,
+        "author": {
+            "login": "majestic-owl448",
+            "id": 26656284
+        },
+        "created_at": "2026-09-02T08:40:22Z",
+        "merged_at": null,
+        "labels": [
+            {
+                "id": 252661769,
+                "name": "bug"
+            }
+        ],
+        "base": {
+            "repo": {
+                "id": 39225141,
+                "name": "search-service",
+                "full_name": "search-service"
+            }
+        },
+        "additions": 204,
+        "deletions": 111
+    }
+]

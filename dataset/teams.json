@@ -1,0 +1,32 @@
+[
+    {
+        "team_id": 30001,
+        "team_name": "backend",
+        "team_slug": "backend",
+        "repo_ids": [13840241, 28457823, 32658394, 36910395, 39225141]
+    },
+    {
+        "team_id": 30002,
+        "team_name": "frontend",
+        "team_slug": "frontend",
+        "repo_ids": [28457823, 32658394, 36910395, 39225141]
+    },
+    {
+        "team_id": 30003,
+        "team_name": "devops",
+        "team_slug": "devops",
+        "repo_ids": [13840241, 28457823, 32658394, 36910395, 39225141]
+    },
+    {
+        "team_id": 30004,
+        "team_name": "mobile",
+        "team_slug": "mobile",
+        "repo_ids": [28457823, 32658394, 36910395]
+    },
+    {
+        "team_id": 30005,
+        "team_name": "data",
+        "team_slug": "data",
+        "repo_ids": [32658394, 39225141]
+    }
+]
