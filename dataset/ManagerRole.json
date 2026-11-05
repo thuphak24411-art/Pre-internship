@@ -1,0 +1,93 @@
+[
+  {
+    "manager_email": "nguyenminhanh.dn@gmail.com",
+    "manager_role": "team_lead",
+    "access_scope": "TEAM",
+    "team_id": 30001,
+    "repo_id": null
+  },
+  {
+    "manager_email": "tranthuyduong.dn@gmail.com",
+    "manager_role": "team_lead",
+    "access_scope": "TEAM",
+    "team_id": 30002,
+    "repo_id": null
+  },
+  {
+    "manager_email": "levanphuc.dn@gmail.com",
+    "manager_role": "team_lead",
+    "access_scope": "TEAM",
+    "team_id": 30003,
+    "repo_id": null
+  },
+  {
+    "manager_email": "phamthanhson.dn@gmail.com",
+    "manager_role": "team_lead",
+    "access_scope": "TEAM",
+    "team_id": 30004,
+    "repo_id": null
+  },
+  {
+    "manager_email": "hoangngocmai.dn@gmail.com",
+    "manager_role": "team_lead",
+    "access_scope": "TEAM",
+    "team_id": 30005,
+    "repo_id": null
+  },
+  {
+    "manager_email": "phamquynhchi.dn@gmail.com",
+    "manager_role": "product_manager",
+    "access_scope": "REPO",
+    "team_id": null,
+    "repo_id": 13840241
+  },
+  {
+    "manager_email": "dohoangnam.dn@gmail.com",
+    "manager_role": "product_manager",
+    "access_scope": "REPO",
+    "team_id": null,
+    "repo_id": 28457823
+  },
+  {
+    "manager_email": "vothuha.dn@gmail.com",
+    "manager_role": "product_manager",
+    "access_scope": "REPO",
+    "team_id": null,
+    "repo_id": 32658394
+  },
+  {
+    "manager_email": "dangminhquan.dn@gmail.com",
+    "manager_role": "product_manager",
+    "access_scope": "REPO",
+    "team_id": null,
+    "repo_id": 36910395
+  },
+  {
+    "manager_email": "trankimngan.dn@gmail.com",
+    "manager_role": "product_manager",
+    "access_scope": "REPO",
+    "team_id": null,
+    "repo_id": 39225141
+  },
+  {
+    "manager_email": "buituananh.dn@gmail.com",
+    "manager_role": "project_manager",
+    "access_scope": "MULTI_REPO",
+    "team_id": null,
+    "repo_id": [13840241, 32658394, 36910395]
+  },
+  {
+    "manager_email": "nguyenanhkhoa.dn@gmail.com",
+    "manager_role": "project_manager",
+    "access_scope": "MULTI_REPO",
+    "team_id": null,
+    "repo_id": [28457823, 39225141]
+  },
+  {
+    "manager_email": "nguyenducthanh.dn@gmail.com",
+    "manager_role": "development_manager",
+    "access_scope": "ALL",
+    "team_id": [30001, 30002, 30003, 30004, 30005],
+    "repo_id": [13840241, 28457823, 32658394, 36910395, 39225141]
+  }
+]
